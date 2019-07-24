@@ -55,7 +55,6 @@ you have 15 secconds to move  <br>
     Notes
  <ul>
     <li> you can click on any users photo and see its profile</li>
-
-    <li>after game finished your game result will save to DataBase</li>
+    <li> after game finished your game result will save to DataBase </li>
  </ul>
 </h2>
