@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="293061a4-33b1-4213-a869-961daeeb51a0" name="Default Changelist" comment="" />
+    <list default="true" id="293061a4-33b1-4213-a869-961daeeb51a0" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -45,7 +47,7 @@
         <entry file="file://$PROJECT_DIR$/src/battleShip/core/server/PcGamer.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="153">
-              <caret line="122" column="21" lean-forward="true" selection-start-line="122" selection-start-column="21" selection-end-line="122" selection-end-column="21" />
+              <caret line="122" column="21" selection-start-line="122" selection-start-column="21" selection-end-line="122" selection-end-column="21" />
               <folding>
                 <element signature="method#attack#0;class#PcGamer#0" />
                 <element signature="e#5466#5467#0" expanded="true" />
@@ -59,7 +61,7 @@
         <entry file="file://$PROJECT_DIR$/src/battleShip/mainPage/Game.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="289">
-              <caret line="235" column="27" lean-forward="true" selection-start-line="235" selection-start-column="27" selection-end-line="235" selection-end-column="27" />
+              <caret line="235" column="27" selection-start-line="235" selection-start-column="27" selection-end-line="235" selection-end-column="27" />
               <folding>
                 <element signature="e#2468#2731#0" />
                 <element signature="method#createPiece#0;class#Game#0" />
@@ -197,7 +199,7 @@
         <entry file="file://$PROJECT_DIR$/src/battleShip/core/App.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="190">
-              <caret line="282" column="19" lean-forward="true" selection-start-line="282" selection-start-column="19" selection-end-line="282" selection-end-column="19" />
+              <caret line="282" column="19" selection-start-line="282" selection-start-column="19" selection-end-line="282" selection-end-column="19" />
               <folding>
                 <element signature="e#991#1038#0" />
                 <element signature="e#1096#1373#0" />
@@ -277,6 +279,9 @@
       <find>Sys</find>
     </findStrings>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
@@ -334,12 +339,13 @@
       <select />
     </treeState>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="62" />
     <option name="y" value="27" />
     <option name="width" value="1158" />
     <option name="height" value="1053" />
   </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
@@ -376,7 +382,7 @@
     <property name="DatabaseDriversLRU" value="sqlite" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1563904890546" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1563988457194" />
     <property name="create.test.in.the.same.root" value="true" />
     <property name="database.console.LAST_STATE" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../../javaSource/javafx/jfoenix-8.0.8.jar!/" />
@@ -411,7 +417,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.PcGamer">
+  <component name="RunManager" selected="Application.Main">
     <configuration name="Main" type="Application" factoryName="Application" singleton="false" temporary="true">
       <option name="MAIN_CLASS_NAME" value="battleShip.Main" />
       <module name="battleShip" />
@@ -449,8 +455,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.PcGamer" />
         <item itemvalue="Application.Main" />
+        <item itemvalue="Application.PcGamer" />
         <item itemvalue="Application.Test" />
       </list>
     </recent_temporary>
@@ -493,15 +499,16 @@
       <workItem from="1563461611146" duration="17000" />
       <workItem from="1563461739737" duration="315000" />
       <workItem from="1563462187203" duration="7988000" />
-      <workItem from="1563531908099" duration="34151000" />
+      <workItem from="1563531908099" duration="35326000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="211830000" />
+    <option name="totallyTimeSpent" value="213005000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="62" y="27" width="1858" height="1053" extended-state="7" />
+    <frame x="62" y="27" width="1858" height="1053" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49782136" visible="true" weight="0.26685083" />
       <window_info id="Structure" order="1" sideWeight="0.50217867" side_tool="true" weight="0.20607735" />
@@ -514,7 +521,7 @@
       <window_info anchor="bottom" id="Messages" order="0" weight="0.32897604" />
       <window_info anchor="bottom" id="Message" order="1" />
       <window_info anchor="bottom" id="Find" order="2" />
-      <window_info active="true" anchor="bottom" id="Run" order="3" visible="true" weight="0.3191721" />
+      <window_info active="true" anchor="bottom" id="Run" order="3" visible="true" weight="0.31986898" />
       <window_info anchor="bottom" id="Debug" order="4" weight="0.7647059" />
       <window_info anchor="bottom" id="Cvs" order="5" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="6" weight="0.4" />
@@ -956,7 +963,7 @@
     <entry file="file://$PROJECT_DIR$/src/battleShip/core/App.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="190">
-          <caret line="282" column="19" lean-forward="true" selection-start-line="282" selection-start-column="19" selection-end-line="282" selection-end-column="19" />
+          <caret line="282" column="19" selection-start-line="282" selection-start-column="19" selection-end-line="282" selection-end-column="19" />
           <folding>
             <element signature="e#991#1038#0" />
             <element signature="e#1096#1373#0" />
@@ -1012,7 +1019,7 @@
     <entry file="file://$PROJECT_DIR$/src/battleShip/mainPage/Game.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="289">
-          <caret line="235" column="27" lean-forward="true" selection-start-line="235" selection-start-column="27" selection-end-line="235" selection-end-column="27" />
+          <caret line="235" column="27" selection-start-line="235" selection-start-column="27" selection-end-line="235" selection-end-column="27" />
           <folding>
             <element signature="e#2468#2731#0" />
             <element signature="method#createPiece#0;class#Game#0" />
@@ -1144,7 +1151,7 @@
     <entry file="file://$PROJECT_DIR$/src/battleShip/core/server/PcGamer.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="153">
-          <caret line="122" column="21" lean-forward="true" selection-start-line="122" selection-start-column="21" selection-end-line="122" selection-end-column="21" />
+          <caret line="122" column="21" selection-start-line="122" selection-start-column="21" selection-end-line="122" selection-end-column="21" />
           <folding>
             <element signature="method#attack#0;class#PcGamer#0" />
             <element signature="e#5466#5467#0" expanded="true" />
