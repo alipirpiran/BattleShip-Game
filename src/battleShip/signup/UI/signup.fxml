@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import com.jfoenix.controls.JFXPasswordField?>
+<?import com.jfoenix.controls.JFXTextField?>
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.Separator?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="815.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="battleShip.signup.Controller">
+   <children>
+      <VBox alignment="TOP_RIGHT" fillWidth="false" prefHeight="377.0" prefWidth="815.0">
+         <children>
+            <Label alignment="CENTER_RIGHT" prefHeight="49.0" prefWidth="821.0" text="ثبت نام" textFill="#8a8a8a">
+               <font>
+                  <Font size="22.0" />
+               </font>
+               <padding>
+                  <Insets right="20.0" />
+               </padding>
+            </Label>
+            <Separator prefWidth="200.0" />
+            <AnchorPane prefHeight="176.0" prefWidth="813.0">
+               <children>
+                  <VBox layoutX="130.0" layoutY="4.0" prefHeight="115.0" prefWidth="165.0" style="-fx-border-color: grey; -fx-background-radius: 5; -fx-border-radius: 10;">
+                     <children>
+                        <ImageView fx:id="imageview" fitHeight="115.0" fitWidth="165.0" pickOnBounds="true" preserveRatio="true" />
+                        <Separator prefWidth="200.0" />
+                        <JFXButton onAction="#choseImage" prefHeight="26.0" prefWidth="173.0" text="انتخاب عکس" />
+                     </children>
+                  </VBox>
+                  <HBox alignment="CENTER_RIGHT" layoutX="437.0" layoutY="47.0" prefHeight="60.0" prefWidth="334.0" style="-fx-border-color: #dfe6e9; -fx-background-radius: 10; -fx-border-radius: 10; -fx-background-color: #a1cfff;">
+                     <children>
+                        <JFXTextField fx:id="fullNameInput" alignment="CENTER" labelFloat="true" prefHeight="53.0" prefWidth="292.0" promptText="نام کامل" unFocusColor="#b5b5b5">
+                           <font>
+                              <Font size="19.0" />
+                           </font>
+                           <HBox.margin>
+                              <Insets right="5.0" />
+                           </HBox.margin>
+                        </JFXTextField>
+                        <ImageView fitHeight="44.0" fitWidth="74.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@../../login/ui/images/profile.png" />
+                           </image>
+                           <HBox.margin>
+                              <Insets right="5.0" top="5.0" />
+                           </HBox.margin>
+                        </ImageView>
+                     </children>
+                  </HBox>
+               </children>
+            </AnchorPane>
+            <Separator prefHeight="3.0" prefWidth="877.0">
+               <VBox.margin>
+                  <Insets top="4.0" />
+               </VBox.margin></Separator>
+            <HBox alignment="CENTER" nodeOrientation="RIGHT_TO_LEFT" prefHeight="55.0" prefWidth="815.0" spacing="40.0">
+               <children>
+                  <HBox alignment="CENTER_RIGHT" nodeOrientation="LEFT_TO_RIGHT" prefHeight="100.0" prefWidth="334.0" style="-fx-border-color: #dfe6e9; -fx-background-radius: 10; -fx-border-radius: 10; -fx-background-color: #a1cfff;">
+                     <children>
+                        <JFXTextField fx:id="usernameInput" alignment="CENTER" labelFloat="true" prefHeight="53.0" prefWidth="292.0" promptText="نام کاربری" unFocusColor="#b5b5b5">
+                           <font>
+                              <Font size="19.0" />
+                           </font>
+                           <HBox.margin>
+                              <Insets right="5.0" />
+                           </HBox.margin>
+                        </JFXTextField>
+                        <ImageView fitHeight="44.0" fitWidth="74.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@../../login/ui/images/profile.png" />
+                           </image>
+                           <HBox.margin>
+                              <Insets right="5.0" top="5.0" />
+                           </HBox.margin>
+                        </ImageView>
+                     </children>
+                  </HBox>
+                  <HBox alignment="CENTER_RIGHT" nodeOrientation="LEFT_TO_RIGHT" prefHeight="57.0" prefWidth="350.0" style="-fx-border-color: #dfe6e9; -fx-background-radius: 10; -fx-border-radius: 10; -fx-background-color: #a1cfff;">
+                     <children>
+                        <JFXPasswordField fx:id="passwordInput" alignment="CENTER" labelFloat="true" prefHeight="53.0" prefWidth="292.0" promptText="گذرواژه" unFocusColor="#b5b5b5">
+                           <font>
+                              <Font size="19.0" />
+                           </font>
+                        </JFXPasswordField>
+                        <ImageView fitHeight="44.0" fitWidth="47.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@../../login/ui/images/key.png" />
+                           </image>
+                           <HBox.margin>
+                              <Insets right="5.0" top="5.0" />
+                           </HBox.margin>
+                        </ImageView>
+                     </children>
+                  </HBox>
+               </children>
+               <VBox.margin>
+                  <Insets top="30.0" />
+               </VBox.margin>
+            </HBox>
+            <Separator prefHeight="4.0" prefWidth="856.0">
+               <VBox.margin>
+                  <Insets top="5.0" />
+               </VBox.margin>
+            </Separator>
+            <HBox alignment="CENTER" prefHeight="48.0" prefWidth="815.0">
+               <children>
+                  <HBox alignment="CENTER_RIGHT" prefHeight="50.0" prefWidth="345.0" style="-fx-background-color: #2ecc71; -fx-background-radius: 10;">
+                     <children>
+                        <JFXButton defaultButton="true" onAction="#signUpBtn" prefHeight="55.0" prefWidth="280.0" style="-fx-background-color: #2ecc71; -fx-background-radius: 10;" text="ثبت نام">
+                           <font>
+                              <Font size="22.0" />
+                           </font>
+                           <HBox.margin>
+                              <Insets right="10.0" />
+                           </HBox.margin>
+                        </JFXButton>
+                        <ImageView fitHeight="47.0" fitWidth="50.0" nodeOrientation="INHERIT" pickOnBounds="true">
+                           <image>
+                              <Image url="@../../login/ui/images/login.png" />
+                           </image>
+                        </ImageView>
+                     </children>
+                     <padding>
+                        <Insets left="20.0" right="5.0" />
+                     </padding>
+                  </HBox>
+               </children>
+               <VBox.margin>
+                  <Insets top="30.0" />
+               </VBox.margin>
+            </HBox>
+         </children>
+      </VBox>
+      <JFXButton layoutX="14.0" layoutY="364.0" onAction="#loginBtn" style="-fx-background-color: #d1ccc0;" text="ورود" />
+   </children>
+</AnchorPane>

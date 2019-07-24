@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import com.jfoenix.controls.JFXSpinner?>
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.Separator?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="523.0" prefWidth="300.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="battleShip.profile.Profile">
+   <children>
+      <VBox alignment="TOP_CENTER" prefHeight="470.0" prefWidth="300.0">
+         <children>
+            <Label alignment="CENTER" prefHeight="74.0" prefWidth="428.0" style="-fx-background-color: #2c3e50;" text="Profile" textFill="WHITE">
+               <font>
+                  <Font size="26.0" />
+               </font>
+            </Label>
+            <HBox alignment="CENTER_RIGHT" prefHeight="100.0" prefWidth="200.0">
+               <children>
+                  <ImageView fx:id="image" fitHeight="99.0" fitWidth="146.0" pickOnBounds="true" preserveRatio="true" />
+                  <Separator orientation="VERTICAL" prefHeight="200.0" />
+                  <Label fx:id="nameLabel" alignment="CENTER" prefHeight="100.0" prefWidth="147.0" text="Name">
+                     <font>
+                        <Font size="20.0" />
+                     </font>
+                  </Label>
+               </children>
+            </HBox>
+            <Separator prefWidth="200.0" />
+            <Separator prefWidth="200.0">
+               <padding>
+                  <Insets top="5.0" />
+               </padding>
+            </Separator>
+            <HBox alignment="CENTER_RIGHT" prefHeight="100.0" prefWidth="200.0" style="-fx-background-color: #bdcc7;">
+               <children>
+                  <JFXSpinner fx:id="winRate" prefHeight="100.0" prefWidth="150.0" progress="0.38" />
+                  <Separator orientation="VERTICAL" prefHeight="200.0" />
+                  <Label alignment="CENTER" prefHeight="100.0" prefWidth="150.0" text="میانگین برد" textAlignment="CENTER">
+                     <font>
+                        <Font size="20.0" />
+                     </font>
+                  </Label>
+               </children>
+               <VBox.margin>
+                  <Insets />
+               </VBox.margin>
+            </HBox>
+            <Separator prefWidth="200.0" />
+            <Separator prefWidth="200.0">
+               <padding>
+                  <Insets top="5.0" />
+               </padding>
+            </Separator>
+            <HBox prefHeight="100.0" prefWidth="391.0" style="-fx-background-color: #ecf0f1;">
+               <children>
+                  <VBox prefHeight="100.0" prefWidth="150.0">
+                     <children>
+                        <Label alignment="CENTER" prefHeight="46.0" prefWidth="159.0" text="تعداد باخت" />
+                        <Separator prefWidth="200.0" />
+                        <Label fx:id="loseLabel" alignment="CENTER" prefHeight="52.0" prefWidth="256.0" text="Label" />
+                     </children>
+                  </VBox>
+                  <Separator orientation="VERTICAL" prefHeight="200.0" />
+                  <VBox alignment="TOP_CENTER" prefHeight="100.0" prefWidth="150.0">
+                     <children>
+                        <Label alignment="CENTER" prefHeight="46.0" prefWidth="159.0" text="تعداد برد" />
+                        <Separator prefWidth="200.0" />
+                        <Label fx:id="winLabel" alignment="CENTER" prefHeight="52.0" prefWidth="256.0" text="Label" />
+                     </children>
+                  </VBox>
+               </children>
+               <VBox.margin>
+                  <Insets />
+               </VBox.margin>
+            </HBox>
+            <Separator prefWidth="200.0" />
+         </children>
+      </VBox>
+      <JFXButton buttonType="RAISED" layoutX="170.0" layoutY="483.0" onAction="#exit" prefHeight="26.0" prefWidth="116.0" style="-fx-background-color: #e74c3c;" text="خروج" />
+   </children>
+</Pane>
