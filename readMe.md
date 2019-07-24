@@ -38,7 +38,7 @@ or create a new account
     3- hard 
 <p>
 
-<img src="images/playWithPc">
+<img src="images/playWithPc.png">
 
 <br>
 
