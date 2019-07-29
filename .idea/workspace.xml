@@ -79,8 +79,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/battleShip/mainPage/Controller.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="566">
-              <caret line="845" column="20" lean-forward="true" selection-start-line="822" selection-start-column="8" selection-end-line="845" selection-end-column="20" />
+            <state relative-caret-position="180">
+              <caret line="825" column="27" selection-start-line="825" selection-start-column="27" selection-end-line="825" selection-end-column="27" />
               <folding>
                 <element signature="e#4234#4566#0" />
                 <element signature="e#4572#5416#0" />
@@ -350,7 +350,7 @@
       <select />
     </treeState>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="62" />
     <option name="y" value="27" />
     <option name="width" value="1158" />
@@ -434,7 +434,7 @@
     <property name="DatabaseDriversLRU" value="sqlite" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1564421243459" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1564423009637" />
     <property name="create.test.in.the.same.root" value="true" />
     <property name="database.console.LAST_STATE" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../../javaSource/javafx/jfoenix-8.0.8.jar!/" />
@@ -558,16 +558,15 @@
       <workItem from="1564138572218" duration="5000" />
       <workItem from="1564388646563" duration="2689000" />
       <workItem from="1564399085519" duration="3091000" />
-      <workItem from="1564419168229" duration="1806000" />
+      <workItem from="1564419168229" duration="2585000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="235534000" />
+    <option name="totallyTimeSpent" value="236313000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="62" y="27" width="1858" height="1053" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49782136" visible="true" weight="0.22928177" />
       <window_info id="Structure" order="1" sideWeight="0.50217867" side_tool="true" weight="0.20607735" />
@@ -579,7 +578,7 @@
       <window_info anchor="bottom" id="Messages" order="0" weight="0.32897604" />
       <window_info anchor="bottom" id="Message" order="1" />
       <window_info anchor="bottom" id="Find" order="2" />
-      <window_info active="true" anchor="bottom" id="Run" order="3" visible="true" weight="0.24235807" />
+      <window_info anchor="bottom" id="Run" order="3" weight="0.24235807" />
       <window_info anchor="bottom" id="Debug" order="4" weight="0.76419216" />
       <window_info anchor="bottom" id="Cvs" order="5" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="6" weight="0.4" />
@@ -587,7 +586,7 @@
       <window_info anchor="bottom" id="Docker" order="8" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="9" />
       <window_info anchor="bottom" id="Database Changes" order="10" />
-      <window_info anchor="bottom" id="Terminal" order="11" weight="0.101528384" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="11" visible="true" weight="0.38864627" />
       <window_info anchor="bottom" id="Event Log" order="12" side_tool="true" />
       <window_info anchor="bottom" id="Database Console" order="13" weight="0.3286026" />
       <window_info anchor="bottom" id="Duplicate detector" order="14" weight="0.32897604" />
@@ -1066,8 +1065,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/battleShip/mainPage/Controller.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="566">
-          <caret line="845" column="20" lean-forward="true" selection-start-line="822" selection-start-column="8" selection-end-line="845" selection-end-column="20" />
+        <state relative-caret-position="180">
+          <caret line="825" column="27" selection-start-line="825" selection-start-column="27" selection-end-line="825" selection-end-column="27" />
           <folding>
             <element signature="e#4234#4566#0" />
             <element signature="e#4572#5416#0" />
