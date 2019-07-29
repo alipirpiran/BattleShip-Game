@@ -143,6 +143,8 @@ public class Controller {
     @FXML
     JFXButton returnToMenu;
 
+    @FXML Label totalTimeLabel;
+
 
     boolean isMovedReady1 = false;
     boolean isMovedReady2 = false;
@@ -164,6 +166,7 @@ public class Controller {
 
 
     Timer timer = new Timer();
+    Timer totalTime;
     private boolean transitionInit = false;
     public Menu menu;
     private ChatBox chatBox;
@@ -214,7 +217,7 @@ public class Controller {
         }, 1000, 1000);
     }
 
-    void finishTimeCheck(){
+    void stopTimeCheck(){
         timer.cancel();
     }
 
@@ -727,6 +730,7 @@ public class Controller {
 
         closeMainMenuPane();
         chatBox.toFront();
+        startTotalTime();
     }
 
     public void ready(boolean opponent) {
@@ -813,6 +817,37 @@ public class Controller {
     public void sendMessageToGame(String messageContent) {
         game.sendMessageToServer(messageContent);
         chatBox.receiveMessage(game.app.member1.getFullName(), messageContent);
+    }
+
+    private void startTotalTime(){
+        final int[] sec = {0};
+
+        totalTime = new Timer();
+        totalTime.schedule(new TimerTask() {
+            @Override
+            public void run() {
+                int hours = 0;
+                int minute = 0;
+                int seccond = 0;
+
+                int temp = sec[0]++;
+                hours = temp / 3600;
+                minute = (temp - hours * 3600) / 60;
+                seccond = (temp - minute * 60);
+
+                String s = "ثانیه";
+                String h = "ساعت";
+                String m = "دقیقه";
+
+                String time = String.format("%s %d , %s %d , %s %d", h, hours, m, minute, s, seccond);
+                Platform.runLater(() -> totalTimeLabel.setText(time));
+
+            }
+        }, 0, 1000);
+    }
+
+    public void stopTotalTime(){
+        totalTime.cancel();
     }
 
 

@@ -1,46 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="BookmarkManager">
-    <bookmark url="file://$PROJECT_DIR$/src/battleShip/mainPage/Controller.java" line="215" />
+    <bookmark url="file://$PROJECT_DIR$/src/battleShip/mainPage/Controller.java" line="218" />
   </component>
   <component name="ChangeListManager">
     <list default="true" id="293061a4-33b1-4213-a869-961daeeb51a0" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/sqldialects.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/battleShip/models/sounds/explosion.mp3" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/battleShip/battleShip/core/App$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/battleShip/battleShip/core/App$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/battleShip/battleShip/core/App.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/battleShip/battleShip/core/App.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/battleShip/battleShip/core/server/ClientHandler$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/battleShip/battleShip/core/server/ClientHandler$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/battleShip/battleShip/core/server/ClientHandler.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/battleShip/battleShip/core/server/ClientHandler.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/battleShip/battleShip/core/server/Database/DataBaseAPI.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/battleShip/battleShip/core/server/Database/DataBaseAPI.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/battleShip/battleShip/core/server/Database/database.db" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/battleShip/battleShip/core/server/Database/database.db" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/battleShip/battleShip/core/server/PcGamer.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/battleShip/battleShip/core/server/PcGamer.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/battleShip/battleShip/core/server/Player.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/battleShip/battleShip/core/server/Player.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/battleShip/battleShip/core/server/Server.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/battleShip/battleShip/core/server/Server.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/battleShip/battleShip/mainPage/Controller$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/battleShip/battleShip/mainPage/Controller$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/battleShip/battleShip/mainPage/Controller.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/battleShip/battleShip/mainPage/Controller.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/battleShip/battleShip/mainPage/Game$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/battleShip/battleShip/mainPage/Game$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/battleShip/battleShip/mainPage/Game.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/battleShip/battleShip/mainPage/Game.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/battleShip/battleShip/mainPage/UI/mainPage.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/battleShip/battleShip/mainPage/UI/mainPage.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/battleShip/battleShip/models/Member.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/battleShip/battleShip/models/Member.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/battleShip/battleShip/models/Message.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/battleShip/battleShip/models/Message.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/battleShip/battleShip/models/MessageType.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/battleShip/battleShip/models/MessageType.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/battleShip/core/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/battleShip/core/App.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/battleShip/core/server/ClientHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/battleShip/core/server/ClientHandler.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/battleShip/core/server/Database/DataBaseAPI.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/battleShip/core/server/Database/DataBaseAPI.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/battleShip/core/server/Database/database.db" beforeDir="false" afterPath="$PROJECT_DIR$/src/battleShip/core/server/Database/database.db" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/battleShip/core/server/PcGamer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/battleShip/core/server/PcGamer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/battleShip/core/server/Player.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/battleShip/core/server/Player.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/battleShip/core/server/Server.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/battleShip/core/server/Server.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/battleShip/mainPage/Controller.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/battleShip/mainPage/Controller.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/battleShip/mainPage/Game.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/battleShip/mainPage/Game.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/battleShip/mainPage/Menu.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/battleShip/mainPage/Menu.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/battleShip/mainPage/UI/mainPage.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/battleShip/mainPage/UI/mainPage.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/battleShip/models/Member.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/battleShip/models/Member.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/battleShip/models/Message.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/battleShip/models/Message.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/battleShip/models/MessageType.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/battleShip/models/MessageType.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -111,89 +79,100 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/battleShip/mainPage/Controller.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="573">
-              <caret line="300" column="25" selection-start-line="300" selection-start-column="25" selection-end-line="300" selection-end-column="25" />
+            <state relative-caret-position="566">
+              <caret line="845" column="20" lean-forward="true" selection-start-line="822" selection-start-column="8" selection-end-line="845" selection-end-column="20" />
               <folding>
-                <element signature="e#4651#4723#1" />
-                <element signature="class#4778:5358" />
-                <element signature="method#run#0;class#4778:5358" />
-                <element signature="e#4906#5076#0" />
-                <element signature="e#5111#5311#1" />
-                <element signature="e#5186#5252#1" />
-                <element signature="e#5455#5456#0" expanded="true" />
-                <element signature="e#5475#5476#0" expanded="true" />
-                <element signature="e#5384#6602#0" />
-                <element signature="e#5532#5664#1" />
-                <element signature="e#5693#5779#0" />
-                <element signature="e#6608#7330#0" />
-                <element signature="e#6851#6979#0" />
-                <element signature="e#7193#7321#0" />
-                <element signature="e#7664#7752#1" />
-                <element signature="e#7758#7846#1" />
-                <element signature="e#8597#8951#0" />
-                <element signature="e#8779#8945#1" />
-                <element signature="e#8957#10672#0" />
-                <element signature="e#9066#9471#1" />
-                <element signature="e#10678#11632#0" />
-                <element signature="e#10736#10917#1" />
-                <element signature="e#10938#11119#1" />
-                <element signature="e#11125#11599#1" />
-                <element signature="e#11156#11357#1" />
-                <element signature="e#11388#11589#1" />
-                <element signature="e#11639#13299#0" />
-                <element signature="e#11906#12589#1" />
-                <element signature="e#11966#12121#1" />
-                <element signature="e#12127#12266#1" />
-                <element signature="e#12307#12558#1" />
-                <element signature="e#12613#12713#1" />
-                <element signature="e#12719#12803#1" />
-                <element signature="e#12860#13292#1" />
-                <element signature="e#12974#13058#1" />
-                <element signature="e#13086#13282#1" />
-                <element signature="e#13305#13596#0" />
-                <element signature="e#13512#13590#1" />
-                <element signature="e#13602#14134#0" />
-                <element signature="e#13697#14128#1" />
-                <element signature="e#13740#14118#1" />
-                <element signature="e#13951#14024#1" />
-                <element signature="e#14030#14104#1" />
-                <element signature="e#14140#15207#0" />
-                <element signature="e#14291#14450#1" />
-                <element signature="e#14575#14673#0" />
-                <element signature="e#14915#15201#1" />
-                <element signature="e#14933#15107#0" />
-                <element signature="e#15139#15191#0" />
-                <element signature="e#15213#15493#0" />
-                <element signature="e#15297#15430#1" />
-                <element signature="e#15753#17449#0" />
-                <element signature="e#17455#17735#0" />
-                <element signature="e#17539#17672#1" />
-                <element signature="e#17741#17870#0" />
-                <element signature="e#17876#18007#0" />
-                <element signature="e#18013#18670#0" />
-                <element signature="e#18587#18634#0" />
-                <element signature="e#18676#19022#0" />
-                <element signature="e#18940#18987#0" />
-                <element signature="e#19211#19288#0" />
-                <element signature="e#19453#20799#0" />
-                <element signature="e#19519#20302#1" />
-                <element signature="e#19777#20005#0" />
-                <element signature="e#20223#20290#0" />
-                <element signature="e#20338#20544#1" />
-                <element signature="e#20550#20793#1" />
-                <element signature="e#20805#21692#0" />
-                <element signature="e#21698#22013#0" />
-                <element signature="e#22132#22435#0" />
-                <element signature="e#22192#22345#0" />
-                <element signature="e#22441#22518#0" />
-                <element signature="e#22901#23837#0" />
-                <element signature="e#23000#23086#1" />
-                <element signature="e#23092#23175#1" />
-                <element signature="e#23396#23641#0" />
-                <element signature="e#23585#23631#0" />
-                <element signature="e#23751#23831#1" />
-                <element signature="e#23843#24550#0" />
-                <element signature="e#25110#25300#0" />
+                <element signature="e#4234#4566#0" />
+                <element signature="e#4572#5416#0" />
+                <element signature="e#4689#4761#1" />
+                <element signature="class#4816:5396" />
+                <element signature="method#run#0;class#4816:5396" />
+                <element signature="e#4944#5114#0" />
+                <element signature="e#5149#5349#1" />
+                <element signature="e#5224#5290#1" />
+                <element signature="e#5444#5475#0" />
+                <element signature="e#5481#6699#0" />
+                <element signature="e#5629#5761#1" />
+                <element signature="e#5790#5876#0" />
+                <element signature="e#6705#7427#0" />
+                <element signature="e#6948#7076#0" />
+                <element signature="e#7290#7418#0" />
+                <element signature="e#7761#7849#1" />
+                <element signature="e#7855#7943#1" />
+                <element signature="e#8008#8206#0" />
+                <element signature="e#8227#8324#0" />
+                <element signature="e#8468#8611#0" />
+                <element signature="e#8617#8971#0" />
+                <element signature="e#8799#8965#1" />
+                <element signature="e#8977#10692#0" />
+                <element signature="e#9086#9491#1" />
+                <element signature="e#10698#11652#0" />
+                <element signature="e#10756#10937#1" />
+                <element signature="e#10958#11139#1" />
+                <element signature="e#11145#11619#1" />
+                <element signature="e#11176#11377#1" />
+                <element signature="e#11408#11609#1" />
+                <element signature="e#11658#13318#0" />
+                <element signature="e#11925#12608#1" />
+                <element signature="e#11985#12140#1" />
+                <element signature="e#12146#12285#1" />
+                <element signature="e#12326#12577#1" />
+                <element signature="e#12632#12732#1" />
+                <element signature="e#12738#12822#1" />
+                <element signature="e#12879#13311#1" />
+                <element signature="e#12993#13077#1" />
+                <element signature="e#13105#13301#1" />
+                <element signature="e#13324#13615#0" />
+                <element signature="e#13531#13609#1" />
+                <element signature="e#13621#14153#0" />
+                <element signature="e#13716#14147#1" />
+                <element signature="e#13759#14137#1" />
+                <element signature="e#13970#14043#1" />
+                <element signature="e#14049#14123#1" />
+                <element signature="e#14159#15226#0" />
+                <element signature="e#14310#14469#1" />
+                <element signature="e#14594#14692#0" />
+                <element signature="e#14934#15220#1" />
+                <element signature="e#14952#15126#0" />
+                <element signature="e#15158#15210#0" />
+                <element signature="e#15232#15512#0" />
+                <element signature="e#15316#15449#1" />
+                <element signature="e#15772#17468#0" />
+                <element signature="e#17474#17754#0" />
+                <element signature="e#17558#17691#1" />
+                <element signature="e#17760#17889#0" />
+                <element signature="e#17895#18026#0" />
+                <element signature="e#18032#18689#0" />
+                <element signature="e#18606#18653#0" />
+                <element signature="e#18695#19041#0" />
+                <element signature="e#18959#19006#0" />
+                <element signature="e#19230#19307#0" />
+                <element signature="e#19473#21060#0" />
+                <element signature="e#19780#20563#1" />
+                <element signature="e#20038#20266#0" />
+                <element signature="e#20484#20551#0" />
+                <element signature="e#20599#20805#1" />
+                <element signature="e#20811#21054#1" />
+                <element signature="e#21066#21953#0" />
+                <element signature="e#21959#22274#0" />
+                <element signature="e#22393#22696#0" />
+                <element signature="e#22453#22606#0" />
+                <element signature="e#23188#24124#0" />
+                <element signature="e#23287#23373#1" />
+                <element signature="e#23379#23462#1" />
+                <element signature="e#23683#23928#0" />
+                <element signature="e#23872#23918#0" />
+                <element signature="e#24038#24118#1" />
+                <element signature="e#24130#24837#0" />
+                <element signature="e#24843#25305#0" />
+                <element signature="e#25178#25235#0" />
+                <element signature="e#25311#25634#0" />
+                <element signature="e#25534#25591#0" />
+                <element signature="e#25789#25979#0" />
+                <element signature="e#26259#26397#0" expanded="true" />
+                <element signature="e#26396#26397#0" expanded="true" />
+                <element signature="e#26966#26967#0" expanded="true" />
+                <element signature="e#27000#27001#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -221,7 +200,7 @@
         <entry file="file://$PROJECT_DIR$/src/battleShip/mainPage/Game.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="494">
-              <caret line="314" column="37" selection-start-line="314" selection-start-column="37" selection-end-line="314" selection-end-column="37" />
+              <caret line="314" column="23" selection-start-line="314" selection-start-column="23" selection-end-line="314" selection-end-column="23" />
             </state>
           </provider>
         </entry>
@@ -243,7 +222,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/battleShip/core/server/Server.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="199">
+            <state relative-caret-position="2755">
               <caret line="205" column="13" selection-start-line="205" selection-start-column="13" selection-end-line="205" selection-end-column="13" />
               <folding>
                 <element signature="method#refreshUserStatus#0;class#Server#0" />
@@ -258,7 +237,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/battleShip/core/server/PcGamer.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-1872">
+            <state relative-caret-position="855">
               <caret line="52" column="28" selection-start-line="52" selection-start-column="20" selection-end-line="52" selection-end-column="28" />
               <folding>
                 <element signature="method#attack#0;class#PcGamer#0" />
@@ -354,9 +333,9 @@
         <option value="$PROJECT_DIR$/src/battleShip/core/server/PcGamer.java" />
         <option value="$PROJECT_DIR$/src/battleShip/core/server/Server.java" />
         <option value="$PROJECT_DIR$/src/battleShip/core/App.java" />
-        <option value="$PROJECT_DIR$/src/battleShip/mainPage/Game.java" />
         <option value="$PROJECT_DIR$/src/battleShip/mainPage/Menu.java" />
         <option value="$PROJECT_DIR$/src/battleShip/mainPage/Controller.java" />
+        <option value="$PROJECT_DIR$/src/battleShip/mainPage/Game.java" />
       </list>
     </option>
   </component>
@@ -371,7 +350,7 @@
       <select />
     </treeState>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds" extendedState="7">
     <option name="x" value="62" />
     <option name="y" value="27" />
     <option name="width" value="1158" />
@@ -455,7 +434,7 @@
     <property name="DatabaseDriversLRU" value="sqlite" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1564401335900" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1564421243459" />
     <property name="create.test.in.the.same.root" value="true" />
     <property name="database.console.LAST_STATE" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../../javaSource/javafx/jfoenix-8.0.8.jar!/" />
@@ -578,18 +557,19 @@
       <workItem from="1564117944803" duration="2588000" />
       <workItem from="1564138572218" duration="5000" />
       <workItem from="1564388646563" duration="2689000" />
-      <workItem from="1564399085519" duration="2222000" />
+      <workItem from="1564399085519" duration="3091000" />
+      <workItem from="1564419168229" duration="1806000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="232859000" />
+    <option name="totallyTimeSpent" value="235534000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="62" y="27" width="1858" height="1053" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49782136" weight="0.22651933" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49782136" visible="true" weight="0.22928177" />
       <window_info id="Structure" order="1" sideWeight="0.50217867" side_tool="true" weight="0.20607735" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -599,7 +579,7 @@
       <window_info anchor="bottom" id="Messages" order="0" weight="0.32897604" />
       <window_info anchor="bottom" id="Message" order="1" />
       <window_info anchor="bottom" id="Find" order="2" />
-      <window_info active="true" anchor="bottom" id="Run" order="3" visible="true" weight="0.16484717" />
+      <window_info active="true" anchor="bottom" id="Run" order="3" visible="true" weight="0.24235807" />
       <window_info anchor="bottom" id="Debug" order="4" weight="0.76419216" />
       <window_info anchor="bottom" id="Cvs" order="5" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="6" weight="0.4" />
@@ -607,7 +587,7 @@
       <window_info anchor="bottom" id="Docker" order="8" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="9" />
       <window_info anchor="bottom" id="Database Changes" order="10" />
-      <window_info anchor="bottom" id="Terminal" order="11" weight="0.32897604" />
+      <window_info anchor="bottom" id="Terminal" order="11" weight="0.101528384" />
       <window_info anchor="bottom" id="Event Log" order="12" side_tool="true" />
       <window_info anchor="bottom" id="Database Console" order="13" weight="0.3286026" />
       <window_info anchor="bottom" id="Duplicate detector" order="14" weight="0.32897604" />
@@ -1009,6 +989,13 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/battleShip/mainPage/Menu.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="209">
+          <caret line="17" column="11" selection-start-line="17" selection-start-column="11" selection-end-line="17" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/battleShip/models/Status.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="38">
@@ -1024,6 +1011,29 @@
             <element signature="imports" expanded="true" />
             <element signature="e#454#455#0" expanded="true" />
             <element signature="e#490#491#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/battleShip/core/server/Server.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2755">
+          <caret line="205" column="13" selection-start-line="205" selection-start-column="13" selection-end-line="205" selection-end-column="13" />
+          <folding>
+            <element signature="method#refreshUserStatus#0;class#Server#0" />
+            <element signature="method#requestToPlay#0;class#Server#0" />
+            <element signature="method#ready#0;class#Server#0" />
+            <element signature="method#createMemberFromMessage#0;class#Server#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/battleShip/core/server/PcGamer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="855">
+          <caret line="52" column="28" selection-start-line="52" selection-start-column="20" selection-end-line="52" selection-end-column="28" />
+          <folding>
+            <element signature="method#attack#0;class#PcGamer#0" />
           </folding>
         </state>
       </provider>
@@ -1047,128 +1057,109 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/battleShip/core/server/PcGamer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1872">
-          <caret line="52" column="28" selection-start-line="52" selection-start-column="20" selection-end-line="52" selection-end-column="28" />
-          <folding>
-            <element signature="method#attack#0;class#PcGamer#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/battleShip/core/server/Server.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="199">
-          <caret line="205" column="13" selection-start-line="205" selection-start-column="13" selection-end-line="205" selection-end-column="13" />
-          <folding>
-            <element signature="method#refreshUserStatus#0;class#Server#0" />
-            <element signature="method#requestToPlay#0;class#Server#0" />
-            <element signature="method#ready#0;class#Server#0" />
-            <element signature="method#createMemberFromMessage#0;class#Server#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/battleShip/mainPage/Game.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="494">
-          <caret line="314" column="37" selection-start-line="314" selection-start-column="37" selection-end-line="314" selection-end-column="37" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/battleShip/mainPage/Menu.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="209">
-          <caret line="17" column="11" selection-start-line="17" selection-start-column="11" selection-end-line="17" selection-end-column="11" />
+          <caret line="314" column="23" selection-start-line="314" selection-start-column="23" selection-end-line="314" selection-end-column="23" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/battleShip/mainPage/Controller.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="573">
-          <caret line="300" column="25" selection-start-line="300" selection-start-column="25" selection-end-line="300" selection-end-column="25" />
+        <state relative-caret-position="566">
+          <caret line="845" column="20" lean-forward="true" selection-start-line="822" selection-start-column="8" selection-end-line="845" selection-end-column="20" />
           <folding>
-            <element signature="e#4651#4723#1" />
-            <element signature="class#4778:5358" />
-            <element signature="method#run#0;class#4778:5358" />
-            <element signature="e#4906#5076#0" />
-            <element signature="e#5111#5311#1" />
-            <element signature="e#5186#5252#1" />
-            <element signature="e#5455#5456#0" expanded="true" />
-            <element signature="e#5475#5476#0" expanded="true" />
-            <element signature="e#5384#6602#0" />
-            <element signature="e#5532#5664#1" />
-            <element signature="e#5693#5779#0" />
-            <element signature="e#6608#7330#0" />
-            <element signature="e#6851#6979#0" />
-            <element signature="e#7193#7321#0" />
-            <element signature="e#7664#7752#1" />
-            <element signature="e#7758#7846#1" />
-            <element signature="e#8597#8951#0" />
-            <element signature="e#8779#8945#1" />
-            <element signature="e#8957#10672#0" />
-            <element signature="e#9066#9471#1" />
-            <element signature="e#10678#11632#0" />
-            <element signature="e#10736#10917#1" />
-            <element signature="e#10938#11119#1" />
-            <element signature="e#11125#11599#1" />
-            <element signature="e#11156#11357#1" />
-            <element signature="e#11388#11589#1" />
-            <element signature="e#11639#13299#0" />
-            <element signature="e#11906#12589#1" />
-            <element signature="e#11966#12121#1" />
-            <element signature="e#12127#12266#1" />
-            <element signature="e#12307#12558#1" />
-            <element signature="e#12613#12713#1" />
-            <element signature="e#12719#12803#1" />
-            <element signature="e#12860#13292#1" />
-            <element signature="e#12974#13058#1" />
-            <element signature="e#13086#13282#1" />
-            <element signature="e#13305#13596#0" />
-            <element signature="e#13512#13590#1" />
-            <element signature="e#13602#14134#0" />
-            <element signature="e#13697#14128#1" />
-            <element signature="e#13740#14118#1" />
-            <element signature="e#13951#14024#1" />
-            <element signature="e#14030#14104#1" />
-            <element signature="e#14140#15207#0" />
-            <element signature="e#14291#14450#1" />
-            <element signature="e#14575#14673#0" />
-            <element signature="e#14915#15201#1" />
-            <element signature="e#14933#15107#0" />
-            <element signature="e#15139#15191#0" />
-            <element signature="e#15213#15493#0" />
-            <element signature="e#15297#15430#1" />
-            <element signature="e#15753#17449#0" />
-            <element signature="e#17455#17735#0" />
-            <element signature="e#17539#17672#1" />
-            <element signature="e#17741#17870#0" />
-            <element signature="e#17876#18007#0" />
-            <element signature="e#18013#18670#0" />
-            <element signature="e#18587#18634#0" />
-            <element signature="e#18676#19022#0" />
-            <element signature="e#18940#18987#0" />
-            <element signature="e#19211#19288#0" />
-            <element signature="e#19453#20799#0" />
-            <element signature="e#19519#20302#1" />
-            <element signature="e#19777#20005#0" />
-            <element signature="e#20223#20290#0" />
-            <element signature="e#20338#20544#1" />
-            <element signature="e#20550#20793#1" />
-            <element signature="e#20805#21692#0" />
-            <element signature="e#21698#22013#0" />
-            <element signature="e#22132#22435#0" />
-            <element signature="e#22192#22345#0" />
-            <element signature="e#22441#22518#0" />
-            <element signature="e#22901#23837#0" />
-            <element signature="e#23000#23086#1" />
-            <element signature="e#23092#23175#1" />
-            <element signature="e#23396#23641#0" />
-            <element signature="e#23585#23631#0" />
-            <element signature="e#23751#23831#1" />
-            <element signature="e#23843#24550#0" />
-            <element signature="e#25110#25300#0" />
+            <element signature="e#4234#4566#0" />
+            <element signature="e#4572#5416#0" />
+            <element signature="e#4689#4761#1" />
+            <element signature="class#4816:5396" />
+            <element signature="method#run#0;class#4816:5396" />
+            <element signature="e#4944#5114#0" />
+            <element signature="e#5149#5349#1" />
+            <element signature="e#5224#5290#1" />
+            <element signature="e#5444#5475#0" />
+            <element signature="e#5481#6699#0" />
+            <element signature="e#5629#5761#1" />
+            <element signature="e#5790#5876#0" />
+            <element signature="e#6705#7427#0" />
+            <element signature="e#6948#7076#0" />
+            <element signature="e#7290#7418#0" />
+            <element signature="e#7761#7849#1" />
+            <element signature="e#7855#7943#1" />
+            <element signature="e#8008#8206#0" />
+            <element signature="e#8227#8324#0" />
+            <element signature="e#8468#8611#0" />
+            <element signature="e#8617#8971#0" />
+            <element signature="e#8799#8965#1" />
+            <element signature="e#8977#10692#0" />
+            <element signature="e#9086#9491#1" />
+            <element signature="e#10698#11652#0" />
+            <element signature="e#10756#10937#1" />
+            <element signature="e#10958#11139#1" />
+            <element signature="e#11145#11619#1" />
+            <element signature="e#11176#11377#1" />
+            <element signature="e#11408#11609#1" />
+            <element signature="e#11658#13318#0" />
+            <element signature="e#11925#12608#1" />
+            <element signature="e#11985#12140#1" />
+            <element signature="e#12146#12285#1" />
+            <element signature="e#12326#12577#1" />
+            <element signature="e#12632#12732#1" />
+            <element signature="e#12738#12822#1" />
+            <element signature="e#12879#13311#1" />
+            <element signature="e#12993#13077#1" />
+            <element signature="e#13105#13301#1" />
+            <element signature="e#13324#13615#0" />
+            <element signature="e#13531#13609#1" />
+            <element signature="e#13621#14153#0" />
+            <element signature="e#13716#14147#1" />
+            <element signature="e#13759#14137#1" />
+            <element signature="e#13970#14043#1" />
+            <element signature="e#14049#14123#1" />
+            <element signature="e#14159#15226#0" />
+            <element signature="e#14310#14469#1" />
+            <element signature="e#14594#14692#0" />
+            <element signature="e#14934#15220#1" />
+            <element signature="e#14952#15126#0" />
+            <element signature="e#15158#15210#0" />
+            <element signature="e#15232#15512#0" />
+            <element signature="e#15316#15449#1" />
+            <element signature="e#15772#17468#0" />
+            <element signature="e#17474#17754#0" />
+            <element signature="e#17558#17691#1" />
+            <element signature="e#17760#17889#0" />
+            <element signature="e#17895#18026#0" />
+            <element signature="e#18032#18689#0" />
+            <element signature="e#18606#18653#0" />
+            <element signature="e#18695#19041#0" />
+            <element signature="e#18959#19006#0" />
+            <element signature="e#19230#19307#0" />
+            <element signature="e#19473#21060#0" />
+            <element signature="e#19780#20563#1" />
+            <element signature="e#20038#20266#0" />
+            <element signature="e#20484#20551#0" />
+            <element signature="e#20599#20805#1" />
+            <element signature="e#20811#21054#1" />
+            <element signature="e#21066#21953#0" />
+            <element signature="e#21959#22274#0" />
+            <element signature="e#22393#22696#0" />
+            <element signature="e#22453#22606#0" />
+            <element signature="e#23188#24124#0" />
+            <element signature="e#23287#23373#1" />
+            <element signature="e#23379#23462#1" />
+            <element signature="e#23683#23928#0" />
+            <element signature="e#23872#23918#0" />
+            <element signature="e#24038#24118#1" />
+            <element signature="e#24130#24837#0" />
+            <element signature="e#24843#25305#0" />
+            <element signature="e#25178#25235#0" />
+            <element signature="e#25311#25634#0" />
+            <element signature="e#25534#25591#0" />
+            <element signature="e#25789#25979#0" />
+            <element signature="e#26259#26397#0" expanded="true" />
+            <element signature="e#26396#26397#0" expanded="true" />
+            <element signature="e#26966#26967#0" expanded="true" />
+            <element signature="e#27000#27001#0" expanded="true" />
           </folding>
         </state>
       </provider>

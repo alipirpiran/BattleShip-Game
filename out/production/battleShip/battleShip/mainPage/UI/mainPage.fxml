@@ -169,5 +169,6 @@
             <Separator prefWidth="200.0" />
          </children>
       </VBox>
+      <Label fx:id="totalTimeLabel" alignment="CENTER" layoutX="322.0" layoutY="612.0" prefHeight="16.0" prefWidth="193.0" text="total time" />
    </children>
 </AnchorPane>

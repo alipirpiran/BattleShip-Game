@@ -312,7 +312,8 @@ public class Game {
         Platform.runLater(() -> controller.showFinishWindow(wined));
 
         playWithPc = false;
-        controller.finishTimeCheck();
+        controller.stopTimeCheck();
+        controller.stopTotalTime();
     }
 
     public void otherPlayerReady(boolean[][] board, String[] shipsData) {
