@@ -1,7 +1,47 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="BookmarkManager">
+    <bookmark url="file://$PROJECT_DIR$/src/battleShip/mainPage/Controller.java" line="215" />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="293061a4-33b1-4213-a869-961daeeb51a0" name="Default Changelist" comment="" />
+    <list default="true" id="293061a4-33b1-4213-a869-961daeeb51a0" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/sqldialects.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/battleShip/models/sounds/explosion.mp3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/battleShip/battleShip/core/App$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/battleShip/battleShip/core/App$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/battleShip/battleShip/core/App.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/battleShip/battleShip/core/App.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/battleShip/battleShip/core/server/ClientHandler$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/battleShip/battleShip/core/server/ClientHandler$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/battleShip/battleShip/core/server/ClientHandler.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/battleShip/battleShip/core/server/ClientHandler.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/battleShip/battleShip/core/server/Database/DataBaseAPI.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/battleShip/battleShip/core/server/Database/DataBaseAPI.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/battleShip/battleShip/core/server/Database/database.db" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/battleShip/battleShip/core/server/Database/database.db" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/battleShip/battleShip/core/server/PcGamer.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/battleShip/battleShip/core/server/PcGamer.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/battleShip/battleShip/core/server/Player.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/battleShip/battleShip/core/server/Player.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/battleShip/battleShip/core/server/Server.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/battleShip/battleShip/core/server/Server.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/battleShip/battleShip/mainPage/Controller$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/battleShip/battleShip/mainPage/Controller$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/battleShip/battleShip/mainPage/Controller.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/battleShip/battleShip/mainPage/Controller.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/battleShip/battleShip/mainPage/Game$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/battleShip/battleShip/mainPage/Game$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/battleShip/battleShip/mainPage/Game.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/battleShip/battleShip/mainPage/Game.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/battleShip/battleShip/mainPage/UI/mainPage.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/battleShip/battleShip/mainPage/UI/mainPage.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/battleShip/battleShip/models/Member.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/battleShip/battleShip/models/Member.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/battleShip/battleShip/models/Message.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/battleShip/battleShip/models/Message.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/battleShip/battleShip/models/MessageType.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/battleShip/battleShip/models/MessageType.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/battleShip/core/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/battleShip/core/App.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/battleShip/core/server/ClientHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/battleShip/core/server/ClientHandler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/battleShip/core/server/Database/DataBaseAPI.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/battleShip/core/server/Database/DataBaseAPI.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/battleShip/core/server/Database/database.db" beforeDir="false" afterPath="$PROJECT_DIR$/src/battleShip/core/server/Database/database.db" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/battleShip/core/server/PcGamer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/battleShip/core/server/PcGamer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/battleShip/core/server/Player.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/battleShip/core/server/Player.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/battleShip/core/server/Server.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/battleShip/core/server/Server.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/battleShip/mainPage/Controller.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/battleShip/mainPage/Controller.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/battleShip/mainPage/Game.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/battleShip/mainPage/Game.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/battleShip/mainPage/Menu.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/battleShip/mainPage/Menu.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/battleShip/mainPage/UI/mainPage.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/battleShip/mainPage/UI/mainPage.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/battleShip/models/Member.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/battleShip/models/Member.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/battleShip/models/Message.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/battleShip/models/Message.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/battleShip/models/MessageType.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/battleShip/models/MessageType.java" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -36,21 +76,143 @@
         <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
         <item name="main: schema" type="981a47c2:SqliteImplModel$Schema" />
       </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="database [2]" type="feb32156:DbDataSourceImpl" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="database [2]" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="database [2]" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="main: schema" type="981a47c2:SqliteImplModel$Schema" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="database [2]" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="main: schema" type="981a47c2:SqliteImplModel$Schema" />
+        <item name="members: table" type="3d80ac25:SqliteImplModel$Table" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="database [2]" type="feb32156:DbDataSourceImpl" />
+        <item name="collations" type="d4e8921:DatabaseStructure$FamilyGroup" />
+      </path>
     </expand>
     <select />
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/battleShip/core/server/PcGamer.java">
+        <entry file="file://$PROJECT_DIR$/src/battleShip/mainPage/Controller.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="153">
-              <caret line="122" column="21" selection-start-line="122" selection-start-column="21" selection-end-line="122" selection-end-column="21" />
+            <state relative-caret-position="573">
+              <caret line="300" column="25" selection-start-line="300" selection-start-column="25" selection-end-line="300" selection-end-column="25" />
               <folding>
-                <element signature="method#attack#0;class#PcGamer#0" />
-                <element signature="e#5466#5467#0" expanded="true" />
-                <element signature="e#6346#6347#0" expanded="true" />
+                <element signature="e#4651#4723#1" />
+                <element signature="class#4778:5358" />
+                <element signature="method#run#0;class#4778:5358" />
+                <element signature="e#4906#5076#0" />
+                <element signature="e#5111#5311#1" />
+                <element signature="e#5186#5252#1" />
+                <element signature="e#5455#5456#0" expanded="true" />
+                <element signature="e#5475#5476#0" expanded="true" />
+                <element signature="e#5384#6602#0" />
+                <element signature="e#5532#5664#1" />
+                <element signature="e#5693#5779#0" />
+                <element signature="e#6608#7330#0" />
+                <element signature="e#6851#6979#0" />
+                <element signature="e#7193#7321#0" />
+                <element signature="e#7664#7752#1" />
+                <element signature="e#7758#7846#1" />
+                <element signature="e#8597#8951#0" />
+                <element signature="e#8779#8945#1" />
+                <element signature="e#8957#10672#0" />
+                <element signature="e#9066#9471#1" />
+                <element signature="e#10678#11632#0" />
+                <element signature="e#10736#10917#1" />
+                <element signature="e#10938#11119#1" />
+                <element signature="e#11125#11599#1" />
+                <element signature="e#11156#11357#1" />
+                <element signature="e#11388#11589#1" />
+                <element signature="e#11639#13299#0" />
+                <element signature="e#11906#12589#1" />
+                <element signature="e#11966#12121#1" />
+                <element signature="e#12127#12266#1" />
+                <element signature="e#12307#12558#1" />
+                <element signature="e#12613#12713#1" />
+                <element signature="e#12719#12803#1" />
+                <element signature="e#12860#13292#1" />
+                <element signature="e#12974#13058#1" />
+                <element signature="e#13086#13282#1" />
+                <element signature="e#13305#13596#0" />
+                <element signature="e#13512#13590#1" />
+                <element signature="e#13602#14134#0" />
+                <element signature="e#13697#14128#1" />
+                <element signature="e#13740#14118#1" />
+                <element signature="e#13951#14024#1" />
+                <element signature="e#14030#14104#1" />
+                <element signature="e#14140#15207#0" />
+                <element signature="e#14291#14450#1" />
+                <element signature="e#14575#14673#0" />
+                <element signature="e#14915#15201#1" />
+                <element signature="e#14933#15107#0" />
+                <element signature="e#15139#15191#0" />
+                <element signature="e#15213#15493#0" />
+                <element signature="e#15297#15430#1" />
+                <element signature="e#15753#17449#0" />
+                <element signature="e#17455#17735#0" />
+                <element signature="e#17539#17672#1" />
+                <element signature="e#17741#17870#0" />
+                <element signature="e#17876#18007#0" />
+                <element signature="e#18013#18670#0" />
+                <element signature="e#18587#18634#0" />
+                <element signature="e#18676#19022#0" />
+                <element signature="e#18940#18987#0" />
+                <element signature="e#19211#19288#0" />
+                <element signature="e#19453#20799#0" />
+                <element signature="e#19519#20302#1" />
+                <element signature="e#19777#20005#0" />
+                <element signature="e#20223#20290#0" />
+                <element signature="e#20338#20544#1" />
+                <element signature="e#20550#20793#1" />
+                <element signature="e#20805#21692#0" />
+                <element signature="e#21698#22013#0" />
+                <element signature="e#22132#22435#0" />
+                <element signature="e#22192#22345#0" />
+                <element signature="e#22441#22518#0" />
+                <element signature="e#22901#23837#0" />
+                <element signature="e#23000#23086#1" />
+                <element signature="e#23092#23175#1" />
+                <element signature="e#23396#23641#0" />
+                <element signature="e#23585#23631#0" />
+                <element signature="e#23751#23831#1" />
+                <element signature="e#23843#24550#0" />
+                <element signature="e#25110#25300#0" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/battleShip/mainPage/Menu.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="209">
+              <caret line="17" column="11" selection-start-line="17" selection-start-column="11" selection-end-line="17" selection-end-column="11" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/battleShip/models/Status.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="38">
+              <caret line="2" selection-start-line="2" selection-end-line="2" />
             </state>
           </provider>
         </entry>
@@ -58,120 +220,21 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/battleShip/mainPage/Game.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="289">
-              <caret line="235" column="27" selection-start-line="235" selection-start-column="27" selection-end-line="235" selection-end-column="27" />
-              <folding>
-                <element signature="e#2468#2731#0" />
-                <element signature="method#createPiece#0;class#Game#0" />
-                <element signature="e#1670#2032#1" />
-                <element signature="e#1869#1918#0" />
-                <element signature="method#tryToMove#0;class#Game#0" />
-                <element signature="e#2150#3050#1" />
-                <element signature="e#2830#3040#1" />
-                <element signature="method#move#0;class#Game#0" />
-                <element signature="e#3178#3445#0" />
-                <element signature="e#3986#4492#1" />
-                <element signature="e#5092#5355#0" />
-                <element signature="e#5266#5349#1" />
-                <element signature="e#5322#5360#1" />
-                <element signature="e#6031#6072#0" />
-                <element signature="e#7487#7488#0" expanded="true" />
-                <element signature="e#9328#9329#0" expanded="true" />
-                <element signature="e#7190#7259#0" />
-                <element signature="e#7282#7326#0" />
-                <element signature="e#7643#7680#0" />
-                <element signature="method#receiveRequest#0;class#Game#0" />
-                <element signature="e#8028#8071#1" />
-                <element signature="e#10650#10651#0" expanded="true" />
-                <element signature="e#8125#8169#1" />
-                <element signature="e#10748#10749#0" expanded="true" />
-                <element signature="method#startGame#0;class#Game#0" />
-                <element signature="method#receiveMessageFromServer#0;class#Game#0" />
-                <element signature="method#sendMessageToServer#0;class#Game#0" />
-                <element signature="method#setOnlineUsers#0;class#Game#0" />
-              </folding>
+            <state relative-caret-position="494">
+              <caret line="314" column="37" selection-start-line="314" selection-start-column="37" selection-end-line="314" selection-end-column="37" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/battleShip/mainPage/Controller.java">
+        <entry file="file://$PROJECT_DIR$/src/battleShip/core/server/Player.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="632">
-              <caret line="160" column="29" selection-start-line="160" selection-start-column="29" selection-end-line="160" selection-end-column="29" />
+            <state relative-caret-position="342">
+              <caret line="26" selection-start-line="26" selection-end-line="26" />
               <folding>
-                <element signature="e#3627#4380#0" />
-                <element signature="e#6334#7156#0" />
-                <element signature="e#5519#5647#0" />
-                <element signature="e#5911#6039#0" />
-                <element signature="e#7162#7583#0" />
-                <element signature="e#6303#6469#1" />
-                <element signature="e#7589#9304#0" />
-                <element signature="e#6590#6995#1" />
-                <element signature="e#9310#10264#0" />
-                <element signature="e#8260#8441#1" />
-                <element signature="e#8462#8643#1" />
-                <element signature="e#8649#9123#1" />
-                <element signature="e#8680#8881#1" />
-                <element signature="e#8912#9113#1" />
-                <element signature="e#10272#11685#0" />
-                <element signature="e#9470#10026#1" />
-                <element signature="e#9554#9612#1" />
-                <element signature="e#9667#9717#1" />
-                <element signature="e#9688#9901#1" />
-                <element signature="e#10334#10682#1" />
-                <element signature="e#10447#10504#1" />
-                <element signature="e#10356#10470#1" />
-                <element signature="e#11691#11982#0" />
-                <element signature="e#10769#10847#1" />
-                <element signature="e#11988#12520#0" />
-                <element signature="e#10953#11385#1" />
-                <element signature="e#10997#11375#1" />
-                <element signature="e#11208#11281#1" />
-                <element signature="e#11287#11361#1" />
-                <element signature="e#12526#13593#0" />
-                <element signature="e#11550#11710#1" />
-                <element signature="e#11836#11934#0" />
-                <element signature="e#12289#12575#1" />
-                <element signature="e#12307#12481#0" />
-                <element signature="e#12513#12565#0" />
-                <element signature="e#13599#13879#0" />
-                <element signature="e#12671#12804#1" />
-                <element signature="e#13885#14165#0" />
-                <element signature="e#12957#13090#1" />
-                <element signature="e#14171#15848#0" />
-                <element signature="e#15854#15983#0" />
-                <element signature="e#15989#16120#0" />
-                <element signature="e#16126#16558#0" />
-                <element signature="e#15463#15510#0" />
-                <element signature="e#16564#16910#0" />
-                <element signature="e#15816#15863#0" />
-                <element signature="e#15980#16019#1" />
-                <element signature="e#16064#16105#1" />
-                <element signature="e#17099#18445#0" />
-                <element signature="e#16153#16936#1" />
-                <element signature="e#16411#16639#0" />
-                <element signature="e#16857#16924#0" />
-                <element signature="e#16972#17178#1" />
-                <element signature="e#17184#17427#1" />
-                <element signature="e#18451#19338#0" />
-                <element signature="e#19344#19659#0" />
-                <element signature="e#18718#18784#1" />
-                <element signature="e#19778#20081#0" />
-                <element signature="e#18826#18979#0" />
-                <element signature="e#20087#20303#0" />
-                <element signature="e#20309#21245#0" />
-                <element signature="e#19492#19520#1" />
-                <element signature="e#19535#19563#1" />
-                <element signature="e#19535#19699#0" />
-                <element signature="e#19641#19689#0" />
-                <element signature="e#20121#20202#1" />
-                <element signature="e#21252#21966#0" />
-                <element signature="e#21972#22363#0" />
-                <element signature="e#21474#21523#0" />
-                <element signature="e#20760#20761#0" expanded="true" />
-                <element signature="e#20841#20842#0" expanded="true" />
-                <element signature="e#22525#22715#0" />
+                <element signature="imports" expanded="true" />
+                <element signature="e#454#455#0" expanded="true" />
+                <element signature="e#490#491#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -180,14 +243,25 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/battleShip/core/server/Server.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="188">
-              <caret line="172" selection-start-line="172" selection-end-line="172" />
+            <state relative-caret-position="199">
+              <caret line="205" column="13" selection-start-line="205" selection-start-column="13" selection-end-line="205" selection-end-column="13" />
               <folding>
-                <element signature="e#1477#1478#0" expanded="true" />
-                <element signature="e#1527#1528#0" expanded="true" />
                 <element signature="method#refreshUserStatus#0;class#Server#0" />
                 <element signature="method#requestToPlay#0;class#Server#0" />
+                <element signature="method#ready#0;class#Server#0" />
                 <element signature="method#createMemberFromMessage#0;class#Server#0" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/battleShip/core/server/PcGamer.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-1872">
+              <caret line="52" column="28" selection-start-line="52" selection-start-column="20" selection-end-line="52" selection-end-column="28" />
+              <folding>
+                <element signature="method#attack#0;class#PcGamer#0" />
               </folding>
             </state>
           </provider>
@@ -196,8 +270,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/battleShip/core/App.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="190">
-              <caret line="282" column="19" selection-start-line="282" selection-start-column="19" selection-end-line="282" selection-end-column="19" />
+            <state relative-caret-position="4807">
+              <caret line="310" column="25" selection-start-line="310" selection-start-column="25" selection-end-line="310" selection-end-column="25" />
               <folding>
                 <element signature="e#991#1038#0" />
                 <element signature="e#1096#1373#0" />
@@ -209,54 +283,7 @@
                 <element signature="e#1685#1894#0" />
                 <element signature="e#1730#1823#0" />
                 <element signature="e#1844#1888#0" />
-                <element signature="e#1900#3010#0" />
-                <element signature="e#2103#3004#0" />
-                <element signature="e#3016#3168#0" />
-                <element signature="e#3174#3298#0" />
-                <element signature="e#3304#3509#0" />
-                <element signature="e#3398#3482#1" />
-                <element signature="e#3515#3902#0" />
-                <element signature="e#3857#3896#0" />
-                <element signature="e#4207#4424#0" />
-                <element signature="e#4430#4674#0" />
-                <element signature="e#4680#4936#0" />
-                <element signature="e#4942#5112#0" />
-                <element signature="e#5238#6059#0" />
-                <element signature="e#5604#5698#0" />
-                <element signature="e#5641#5688#0" />
-                <element signature="e#5719#5763#0" />
-                <element signature="e#5867#5920#1" />
-                <element signature="e#5978#6021#1" />
-                <element signature="e#6065#6785#0" />
-                <element signature="e#6376#6470#0" />
-                <element signature="e#6413#6460#0" />
-                <element signature="e#6502#6546#0" />
-                <element signature="e#6619#6655#1" />
-                <element signature="e#6791#7273#0" />
-                <element signature="e#7049#7088#0" />
-                <element signature="e#7120#7164#0" />
-                <element signature="e#7687#8513#0" />
-                <element signature="e#7810#8199#1" />
-                <element signature="e#8293#8462#1" />
-                <element signature="e#8311#8415#0" />
-                <element signature="e#8349#8401#0" />
-                <element signature="e#8519#8659#0" />
-                <element signature="e#8714#9173#0" />
-                <element signature="e#9179#9374#0" />
-                <element signature="e#9459#9721#0" />
-                <element signature="e#9514#9542#0" />
-                <element signature="e#9727#9785#0" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/battleShip/mainPage/UI/mainPage.fxml">
-          <provider editor-type-id="JavaFX-Scene-Builder" />
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="72">
-              <caret line="65" column="32" selection-start-line="65" selection-start-column="32" selection-end-line="65" selection-end-column="32" />
             </state>
           </provider>
         </entry>
@@ -275,6 +302,8 @@
   <component name="FindInProjectRecents">
     <findStrings>
       <find>Sys</find>
+      <find>system.</find>
+      <find>pc</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -306,30 +335,35 @@
         <option value="$PROJECT_DIR$/src/battleShip/models/onlineUser.java" />
         <option value="$PROJECT_DIR$/src/battleShip/core/localServer/LocalServer.java" />
         <option value="$PROJECT_DIR$/src/battleShip/core/localServer/LocalClientHandler.java" />
-        <option value="$PROJECT_DIR$/src/battleShip/models/Member.java" />
         <option value="$PROJECT_DIR$/src/battleShip/models/Status.java" />
         <option value="$PROJECT_DIR$/src/battleShip/models/Result.java" />
         <option value="$PROJECT_DIR$/src/battleShip/models/TileTypes.java" />
         <option value="$PROJECT_DIR$/src/battleShip/profile/Profile.java" />
-        <option value="$PROJECT_DIR$/src/battleShip/mainPage/Menu.java" />
         <option value="$PROJECT_DIR$/src/battleShip/models/OnlineUser.java" />
         <option value="$PROJECT_DIR$/src/battleShip/mainPage/chatBox/ChatBox.java" />
         <option value="$PROJECT_DIR$/src/battleShip/signup/Controller.java" />
         <option value="$PROJECT_DIR$/src/battleShip/login/Controller.java" />
-        <option value="$PROJECT_DIR$/src/battleShip/models/MessageType.java" />
-        <option value="$PROJECT_DIR$/src/battleShip/core/server/Database/DataBaseAPI.java" />
         <option value="$PROJECT_DIR$/src/battleShip/models/Piece.java" />
+        <option value="$PROJECT_DIR$/src/battleShip/models/Tile.java" />
+        <option value="$PROJECT_DIR$/src/battleShip/models/Member.java" />
+        <option value="$PROJECT_DIR$/src/battleShip/models/MessageType.java" />
         <option value="$PROJECT_DIR$/src/battleShip/models/Message.java" />
+        <option value="$PROJECT_DIR$/src/battleShip/core/server/Database/DataBaseAPI.java" />
         <option value="$PROJECT_DIR$/src/battleShip/core/server/Player.java" />
         <option value="$PROJECT_DIR$/src/battleShip/core/server/ClientHandler.java" />
-        <option value="$PROJECT_DIR$/src/battleShip/models/Tile.java" />
-        <option value="$PROJECT_DIR$/src/battleShip/core/App.java" />
-        <option value="$PROJECT_DIR$/src/battleShip/core/server/Server.java" />
-        <option value="$PROJECT_DIR$/src/battleShip/mainPage/Game.java" />
-        <option value="$PROJECT_DIR$/src/battleShip/mainPage/Controller.java" />
         <option value="$PROJECT_DIR$/src/battleShip/core/server/PcGamer.java" />
+        <option value="$PROJECT_DIR$/src/battleShip/core/server/Server.java" />
+        <option value="$PROJECT_DIR$/src/battleShip/core/App.java" />
+        <option value="$PROJECT_DIR$/src/battleShip/mainPage/Game.java" />
+        <option value="$PROJECT_DIR$/src/battleShip/mainPage/Menu.java" />
+        <option value="$PROJECT_DIR$/src/battleShip/mainPage/Controller.java" />
       </list>
     </option>
+  </component>
+  <component name="JsbtTreeLayoutManager">
+    <layout place="tools.popupGrunt">
+      <scroll-view-position x="0" y="0" />
+    </layout>
   </component>
   <component name="MavenProjectNavigator">
     <treeState>
@@ -343,15 +377,16 @@
     <option name="width" value="1158" />
     <option name="height" value="1053" />
   </component>
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="CatdeaLogs" />
       <pane id="Scope" />
-      <pane id="PackagesPane" />
+      <pane id="CatdeaLogs" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -370,19 +405,59 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="battleShip" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="battleShip" type="b2602c69:ProjectViewProjectNode" />
+              <item name="battleShip" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="battleShip" type="462c0819:PsiDirectoryNode" />
+              <item name="core" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="battleShip" type="b2602c69:ProjectViewProjectNode" />
+              <item name="battleShip" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="battleShip" type="462c0819:PsiDirectoryNode" />
+              <item name="core" type="462c0819:PsiDirectoryNode" />
+              <item name="server" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="battleShip" type="b2602c69:ProjectViewProjectNode" />
+              <item name="battleShip" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="battleShip" type="462c0819:PsiDirectoryNode" />
+              <item name="core" type="462c0819:PsiDirectoryNode" />
+              <item name="server" type="462c0819:PsiDirectoryNode" />
+              <item name="Database" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="battleShip" type="b2602c69:ProjectViewProjectNode" />
+              <item name="battleShip" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="battleShip" type="462c0819:PsiDirectoryNode" />
+              <item name="models" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="battleShip" type="b2602c69:ProjectViewProjectNode" />
+              <item name="battleShip" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="battleShip" type="462c0819:PsiDirectoryNode" />
+              <item name="models" type="462c0819:PsiDirectoryNode" />
+              <item name="sounds" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="DatabaseDriversLRU" value="sqlite" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1563988555359" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1564401335900" />
     <property name="create.test.in.the.same.root" value="true" />
-    <property name="database.console.LAST_STATE" value="true" />
+    <property name="database.console.LAST_STATE" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../../javaSource/javafx/jfoenix-8.0.8.jar!/" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="project.structure.last.edited" value="Libraries" />
@@ -391,16 +466,17 @@
     <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/src/battleShip/mainPage/UI/images" />
-      <recent name="$PROJECT_DIR$/src/battleShip/mainPage/UI" />
-      <recent name="$PROJECT_DIR$/src/battleShip/models" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/battleShip/models/sounds" />
       <recent name="$PROJECT_DIR$/src/battleShip/mainPage/UI/images" />
       <recent name="$PROJECT_DIR$/src/battleShip/models" />
       <recent name="$PROJECT_DIR$/src/battleShip" />
       <recent name="$PROJECT_DIR$/src/battleShip/login/ui/images" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/battleShip/mainPage/UI/images" />
+      <recent name="$PROJECT_DIR$/src/battleShip/mainPage/UI" />
+      <recent name="$PROJECT_DIR$/src/battleShip/models" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -497,29 +573,66 @@
       <workItem from="1563461611146" duration="17000" />
       <workItem from="1563461739737" duration="315000" />
       <workItem from="1563462187203" duration="7988000" />
-      <workItem from="1563531908099" duration="35326000" />
+      <workItem from="1563531908099" duration="38940000" />
+      <workItem from="1564062492968" duration="8736000" />
+      <workItem from="1564117944803" duration="2588000" />
+      <workItem from="1564138572218" duration="5000" />
+      <workItem from="1564388646563" duration="2689000" />
+      <workItem from="1564399085519" duration="2222000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="213005000" />
+    <option name="totallyTimeSpent" value="232859000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="62" y="27" width="1858" height="1053" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49782136" visible="true" weight="0.26685083" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49782136" weight="0.22651933" />
       <window_info id="Structure" order="1" sideWeight="0.50217867" side_tool="true" weight="0.20607735" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
       <window_info id="UI Designer" order="4" />
       <window_info id="Capture Tool" order="5" />
       <window_info id="Favorites" order="6" side_tool="true" />
-      <window_info anchor="bottom" id="Duplicate detector" weight="0.32897604" />
       <window_info anchor="bottom" id="Messages" order="0" weight="0.32897604" />
       <window_info anchor="bottom" id="Message" order="1" />
       <window_info anchor="bottom" id="Find" order="2" />
-      <window_info active="true" anchor="bottom" id="Run" order="3" visible="true" weight="0.31986898" />
+      <window_info active="true" anchor="bottom" id="Run" order="3" visible="true" weight="0.16484717" />
+      <window_info anchor="bottom" id="Debug" order="4" weight="0.76419216" />
+      <window_info anchor="bottom" id="Cvs" order="5" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="6" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="7" />
+      <window_info anchor="bottom" id="Docker" order="8" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="9" />
+      <window_info anchor="bottom" id="Database Changes" order="10" />
+      <window_info anchor="bottom" id="Terminal" order="11" weight="0.32897604" />
+      <window_info anchor="bottom" id="Event Log" order="12" side_tool="true" />
+      <window_info anchor="bottom" id="Database Console" order="13" weight="0.3286026" />
+      <window_info anchor="bottom" id="Duplicate detector" order="14" weight="0.32897604" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="1" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="2" />
+      <window_info anchor="right" id="Theme Preview" order="3" />
+      <window_info anchor="right" id="Ant Build" order="4" weight="0.24972376" />
+      <window_info anchor="right" id="Capture Analysis" order="5" />
+      <window_info anchor="right" id="Palette&#9;" order="6" />
+      <window_info anchor="right" id="Maven" order="7" weight="0.32983425" />
+      <window_info anchor="right" id="Database" order="8" weight="0.16077349" />
+    </layout>
+    <layout-to-restore>
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49782136" visible="true" weight="0.22651933" />
+      <window_info id="Structure" order="1" sideWeight="0.50217867" side_tool="true" weight="0.20607735" />
+      <window_info id="Image Layers" order="2" />
+      <window_info id="Designer" order="3" />
+      <window_info id="UI Designer" order="4" />
+      <window_info id="Capture Tool" order="5" />
+      <window_info id="Favorites" order="6" side_tool="true" />
+      <window_info anchor="bottom" id="Messages" order="0" weight="0.32897604" />
+      <window_info anchor="bottom" id="Message" order="1" />
+      <window_info anchor="bottom" id="Find" order="2" />
+      <window_info anchor="bottom" id="Run" order="3" visible="true" weight="0.4989083" />
       <window_info anchor="bottom" id="Debug" order="4" weight="0.7647059" />
       <window_info anchor="bottom" id="Cvs" order="5" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="6" weight="0.4" />
@@ -529,7 +642,8 @@
       <window_info anchor="bottom" id="Database Changes" order="10" />
       <window_info anchor="bottom" id="Terminal" order="11" weight="0.32897604" />
       <window_info anchor="bottom" id="Event Log" order="12" side_tool="true" />
-      <window_info anchor="bottom" id="Database Console" order="13" weight="0.32897604" />
+      <window_info anchor="bottom" id="Database Console" order="13" weight="0.3286026" />
+      <window_info anchor="bottom" id="Duplicate detector" order="14" weight="0.32897604" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="1" weight="0.25" />
       <window_info anchor="right" id="Palette" order="2" />
@@ -538,39 +652,7 @@
       <window_info anchor="right" id="Capture Analysis" order="5" />
       <window_info anchor="right" id="Palette&#9;" order="6" />
       <window_info anchor="right" id="Maven" order="7" weight="0.32983425" />
-      <window_info anchor="right" id="Database" order="8" weight="0.32983425" />
-    </layout>
-    <layout-to-restore>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49782136" visible="true" weight="0.15524861" />
-      <window_info id="Structure" order="1" sideWeight="0.50217867" side_tool="true" weight="0.20607735" />
-      <window_info id="Image Layers" order="2" />
-      <window_info id="Designer" order="3" />
-      <window_info id="UI Designer" order="4" />
-      <window_info id="Capture Tool" order="5" />
-      <window_info id="Favorites" order="6" side_tool="true" />
-      <window_info anchor="bottom" id="Messages" order="0" weight="0.32897604" />
-      <window_info anchor="bottom" id="Message" order="1" />
-      <window_info anchor="bottom" id="Find" order="2" />
-      <window_info active="true" anchor="bottom" id="Run" order="3" visible="true" weight="0.21459696" />
-      <window_info anchor="bottom" id="Debug" order="4" weight="0.31154683" />
-      <window_info anchor="bottom" id="Cvs" order="5" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="6" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="7" />
-      <window_info anchor="bottom" id="Docker" order="8" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="9" />
-      <window_info anchor="bottom" id="Database Changes" order="10" />
-      <window_info anchor="bottom" id="Terminal" order="11" weight="0.32897604" />
-      <window_info anchor="bottom" id="Event Log" order="12" side_tool="true" />
-      <window_info anchor="bottom" id="Database Console" order="13" weight="0.32897604" />
-      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="1" weight="0.25" />
-      <window_info anchor="right" id="Palette" order="2" />
-      <window_info anchor="right" id="Theme Preview" order="3" />
-      <window_info anchor="right" id="Ant Build" order="4" weight="0.24972376" />
-      <window_info anchor="right" id="Capture Analysis" order="5" />
-      <window_info anchor="right" id="Palette&#9;" order="6" />
-      <window_info anchor="right" id="Maven" order="7" weight="0.32983425" />
-      <window_info anchor="right" id="Database" order="8" weight="0.32983425" />
+      <window_info anchor="right" id="Database" order="8" weight="0.16077349" />
     </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -581,38 +663,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/battleShip/Game/UI/game.fxml">
-      <provider selected="true" editor-type-id="JavaFX-Scene-Builder" />
-      <provider editor-type-id="text-editor">
-        <state relative-caret-position="190">
-          <caret line="10" column="53" selection-start-line="10" selection-start-column="53" selection-end-line="10" selection-end-column="53" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/battleShip/Game/Controller.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="38">
-          <caret line="2" column="23" selection-start-line="2" selection-start-column="23" selection-end-line="2" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/battleShip/login/ui/login.fxml">
-      <provider selected="true" editor-type-id="JavaFX-Scene-Builder" />
-      <provider editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/90646047-0e9d-40d5-8d83-b238b5993c42/console.sql">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="das://1e03af4d-a80b-4d84-a900-a0fce889beea/schema/main/table/sqlite_master">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/1e03af4d-a80b-4d84-a900-a0fce889beea/console.sql">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/battleShip/core/server/Database/ConnectionForDB.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="152">
@@ -689,13 +739,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/battleShip/models/Status.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="57">
-          <caret line="3" column="30" selection-start-line="3" selection-start-column="30" selection-end-line="3" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/battleShip/models/Result.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="57">
@@ -743,16 +786,6 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/battleShip/models/TileTypes.java" />
-    <entry file="file://$PROJECT_DIR$/src/battleShip/mainPage/Menu.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="21" column="53" lean-forward="true" selection-start-line="21" selection-start-column="53" selection-end-line="21" selection-end-column="53" />
-          <folding>
-            <element signature="method#show#0;class#Menu#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/battleShip/mainPage/Test.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="94">
@@ -812,41 +845,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/battleShip/login/Controller.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="719">
-          <caret line="234" column="17" selection-start-line="234" selection-start-column="17" selection-end-line="234" selection-end-column="17" />
-          <folding>
-            <element signature="method#initialize#0;class#Controller#0" />
-            <element signature="class#1694:1851" />
-            <element signature="method#serverPane#0;class#Controller#0" />
-            <element signature="method#show#0;class#Controller#0" />
-            <element signature="class#2281:2572" />
-            <element signature="method#handle#0;class#2281:2572" />
-            <element signature="method#close#0;class#Controller#0" />
-            <element signature="e#2725#2891#0" />
-            <element signature="method#login#0;class#Controller#0" />
-            <element signature="e#3117#3208#1" />
-            <element signature="e#3308#3386#1" />
-            <element signature="method#signUpBtn#0;class#Controller#0" />
-            <element signature="method#connectToServer#0;class#Controller#0" />
-            <element signature="e#3904#3993#1" />
-            <element signature="e#4059#4095#1" />
-            <element signature="method#startServer#0;class#Controller#0" />
-            <element signature="method#serverStarted#0;class#Controller#0" />
-            <element signature="e#4410#4452#1" />
-            <element signature="method#setServerInfo#0;class#Controller#0" />
-            <element signature="e#4561#4626#0" />
-            <element signature="e#4658#4702#0" />
-            <element signature="method#connected#0;class#Controller#0" />
-            <element signature="method#showWindow#0;class#Controller#0" />
-            <element signature="e#6387#6456#0" />
-            <element signature="e#6479#6523#0" />
-            <element signature="e#6757#6862#1" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/battleShip/signup/Controller.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="532">
@@ -868,59 +866,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/battleShip/models/MessageType.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="95">
-          <caret line="5" column="14" selection-start-line="5" selection-start-column="14" selection-end-line="5" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/battleShip/models/Member.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="38">
-          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-          <folding>
-            <element signature="e#1312#1313#0" expanded="true" />
-            <element signature="e#1341#1342#0" expanded="true" />
-            <element signature="e#1385#1386#0" expanded="true" />
-            <element signature="e#1421#1422#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/battleShip/core/server/Database/DataBaseAPI.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="97">
-          <caret line="56" column="36" selection-start-line="56" selection-start-column="36" selection-end-line="56" selection-end-column="36" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="initializer##0;class#DataBaseAPI#0" />
-            <element signature="method#saveImage#0;class#DataBaseAPI#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/battleShip/core/server/Player.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="483">
-          <caret line="31" column="24" selection-start-line="31" selection-start-column="24" selection-end-line="31" selection-end-column="24" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/battleShip/core/server/ClientHandler.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="147">
-          <caret line="85" selection-start-line="85" selection-end-line="85" />
-          <folding>
-            <element signature="method#ClientHandler#0;class#ClientHandler#0" />
-            <element signature="method#sendMessageToClient#0;class#ClientHandler#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/battleShip/models/Tile.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="323">
@@ -931,17 +876,65 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/battleShip/models/sounds.java" />
+    <entry file="file://$PROJECT_DIR$/readMe.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor />
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///usr/lib/jvm/java-8-oracle/javafx-src.zip!/javafx/scene/media/AudioClip.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="874">
+          <caret line="78" column="11" selection-start-line="78" selection-start-column="11" selection-end-line="78" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/battleShip/models/MessageType.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="133">
+          <caret line="7" selection-start-line="7" selection-end-line="7" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/battleShip/models/Message.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-2856">
-          <caret line="96" column="37" selection-start-line="96" selection-start-column="37" selection-end-line="96" selection-end-column="37" />
+        <state relative-caret-position="247">
+          <caret line="108" column="23" selection-start-line="108" selection-start-column="23" selection-end-line="108" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/battleShip/core/server/Database/DataBaseAPI.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="208">
+          <caret line="153" column="63" selection-start-line="153" selection-start-column="63" selection-end-line="153" selection-end-column="63" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="method#getMember#0;class#DataBaseAPI#0" />
+            <element signature="method#getMembers#0;class#DataBaseAPI#0" />
+            <element signature="method#setImage#0;class#DataBaseAPI#0" />
+            <element signature="method#saveImage#0;class#DataBaseAPI#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/battleShip/core/server/ClientHandler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="500">
+          <caret line="161" selection-start-line="161" selection-end-line="161" />
+          <folding>
+            <element signature="method#ClientHandler#0;class#ClientHandler#0" />
+            <element signature="method#sendMessageToClient#0;class#ClientHandler#0" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/battleShip/models/Piece.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="303">
-          <caret line="94" column="16" selection-start-line="94" selection-start-column="16" selection-end-line="94" selection-end-column="16" />
+        <state relative-caret-position="494">
+          <caret line="96" column="8" selection-start-line="96" selection-start-column="8" selection-end-line="96" selection-end-column="8" />
           <folding>
             <element signature="method#relocateGroup#0;class#Piece#0" />
             <element signature="method#move#0;class#Piece#0" />
@@ -950,18 +943,95 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/battleShip/models/Member.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="10" column="19" selection-start-line="10" selection-start-column="19" selection-end-line="10" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/battleShip/login/Controller.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="82">
+          <caret line="159" selection-start-line="159" selection-end-line="159" />
+          <folding>
+            <element signature="method#initialize#0;class#Controller#0" />
+            <element signature="method#serverPane#0;class#Controller#0" />
+            <element signature="method#show#0;class#Controller#0" />
+            <element signature="method#close#0;class#Controller#0" />
+            <element signature="e#2725#2891#0" />
+            <element signature="e#3117#3208#1" />
+            <element signature="e#3308#3386#1" />
+            <element signature="e#3522#3523#0" expanded="true" />
+            <element signature="method#signUpBtn#0;class#Controller#0" />
+            <element signature="method#connectToServer#0;class#Controller#0" />
+            <element signature="e#3904#3993#1" />
+            <element signature="e#4059#4095#1" />
+            <element signature="method#startServer#0;class#Controller#0" />
+            <element signature="method#serverStarted#0;class#Controller#0" />
+            <element signature="e#4410#4452#1" />
+            <element signature="method#setServerInfo#0;class#Controller#0" />
+            <element signature="e#4561#4626#0" />
+            <element signature="e#4658#4702#0" />
+            <element signature="method#connected#0;class#Controller#0" />
+            <element signature="method#showWindow#0;class#Controller#0" />
+            <element signature="e#6757#6862#1" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///usr/lib/jvm/java-8-oracle/src.zip!/java/util/ArrayList.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="908" selection-start-line="908" selection-end-line="908" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///usr/lib/jvm/java-8-oracle/javafx-src.zip!/com/sun/javafx/application/PlatformImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="294" selection-start-line="294" selection-end-line="294" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://8efcf6a1-e5c3-43c6-ba28-c5e0d4fcb8be/schema/main/table/members">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/battleShip/mainPage/UI/mainPage.fxml">
       <provider editor-type-id="JavaFX-Scene-Builder" />
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="72">
-          <caret line="65" column="32" selection-start-line="65" selection-start-column="32" selection-end-line="65" selection-end-column="32" />
+        <state relative-caret-position="242">
+          <caret line="118" column="32" selection-start-line="118" selection-start-column="32" selection-end-line="118" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/battleShip/models/Status.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="38">
+          <caret line="2" selection-start-line="2" selection-end-line="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/battleShip/core/server/Player.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="342">
+          <caret line="26" selection-start-line="26" selection-end-line="26" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#454#455#0" expanded="true" />
+            <element signature="e#490#491#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/battleShip/core/App.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="190">
-          <caret line="282" column="19" selection-start-line="282" selection-start-column="19" selection-end-line="282" selection-end-column="19" />
+        <state relative-caret-position="4807">
+          <caret line="310" column="25" selection-start-line="310" selection-start-column="25" selection-end-line="310" selection-end-column="25" />
           <folding>
             <element signature="e#991#1038#0" />
             <element signature="e#1096#1373#0" />
@@ -973,187 +1043,132 @@
             <element signature="e#1685#1894#0" />
             <element signature="e#1730#1823#0" />
             <element signature="e#1844#1888#0" />
-            <element signature="e#1900#3010#0" />
-            <element signature="e#2103#3004#0" />
-            <element signature="e#3016#3168#0" />
-            <element signature="e#3174#3298#0" />
-            <element signature="e#3304#3509#0" />
-            <element signature="e#3398#3482#1" />
-            <element signature="e#3515#3902#0" />
-            <element signature="e#3857#3896#0" />
-            <element signature="e#4207#4424#0" />
-            <element signature="e#4430#4674#0" />
-            <element signature="e#4680#4936#0" />
-            <element signature="e#4942#5112#0" />
-            <element signature="e#5238#6059#0" />
-            <element signature="e#5604#5698#0" />
-            <element signature="e#5641#5688#0" />
-            <element signature="e#5719#5763#0" />
-            <element signature="e#5867#5920#1" />
-            <element signature="e#5978#6021#1" />
-            <element signature="e#6065#6785#0" />
-            <element signature="e#6376#6470#0" />
-            <element signature="e#6413#6460#0" />
-            <element signature="e#6502#6546#0" />
-            <element signature="e#6619#6655#1" />
-            <element signature="e#6791#7273#0" />
-            <element signature="e#7049#7088#0" />
-            <element signature="e#7120#7164#0" />
-            <element signature="e#7687#8513#0" />
-            <element signature="e#7810#8199#1" />
-            <element signature="e#8293#8462#1" />
-            <element signature="e#8311#8415#0" />
-            <element signature="e#8349#8401#0" />
-            <element signature="e#8519#8659#0" />
-            <element signature="e#8714#9173#0" />
-            <element signature="e#9179#9374#0" />
-            <element signature="e#9459#9721#0" />
-            <element signature="e#9514#9542#0" />
-            <element signature="e#9727#9785#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/battleShip/mainPage/Game.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="235" column="27" selection-start-line="235" selection-start-column="27" selection-end-line="235" selection-end-column="27" />
-          <folding>
-            <element signature="e#2468#2731#0" />
-            <element signature="method#createPiece#0;class#Game#0" />
-            <element signature="e#1670#2032#1" />
-            <element signature="e#1869#1918#0" />
-            <element signature="method#tryToMove#0;class#Game#0" />
-            <element signature="e#2150#3050#1" />
-            <element signature="e#2830#3040#1" />
-            <element signature="method#move#0;class#Game#0" />
-            <element signature="e#3178#3445#0" />
-            <element signature="e#3986#4492#1" />
-            <element signature="e#5092#5355#0" />
-            <element signature="e#5266#5349#1" />
-            <element signature="e#5322#5360#1" />
-            <element signature="e#6031#6072#0" />
-            <element signature="e#7487#7488#0" expanded="true" />
-            <element signature="e#9328#9329#0" expanded="true" />
-            <element signature="e#7190#7259#0" />
-            <element signature="e#7282#7326#0" />
-            <element signature="e#7643#7680#0" />
-            <element signature="method#receiveRequest#0;class#Game#0" />
-            <element signature="e#8028#8071#1" />
-            <element signature="e#10650#10651#0" expanded="true" />
-            <element signature="e#8125#8169#1" />
-            <element signature="e#10748#10749#0" expanded="true" />
-            <element signature="method#startGame#0;class#Game#0" />
-            <element signature="method#receiveMessageFromServer#0;class#Game#0" />
-            <element signature="method#sendMessageToServer#0;class#Game#0" />
-            <element signature="method#setOnlineUsers#0;class#Game#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/battleShip/mainPage/Controller.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="632">
-          <caret line="160" column="29" selection-start-line="160" selection-start-column="29" selection-end-line="160" selection-end-column="29" />
-          <folding>
-            <element signature="e#3627#4380#0" />
-            <element signature="e#6334#7156#0" />
-            <element signature="e#5519#5647#0" />
-            <element signature="e#5911#6039#0" />
-            <element signature="e#7162#7583#0" />
-            <element signature="e#6303#6469#1" />
-            <element signature="e#7589#9304#0" />
-            <element signature="e#6590#6995#1" />
-            <element signature="e#9310#10264#0" />
-            <element signature="e#8260#8441#1" />
-            <element signature="e#8462#8643#1" />
-            <element signature="e#8649#9123#1" />
-            <element signature="e#8680#8881#1" />
-            <element signature="e#8912#9113#1" />
-            <element signature="e#10272#11685#0" />
-            <element signature="e#9470#10026#1" />
-            <element signature="e#9554#9612#1" />
-            <element signature="e#9667#9717#1" />
-            <element signature="e#9688#9901#1" />
-            <element signature="e#10334#10682#1" />
-            <element signature="e#10447#10504#1" />
-            <element signature="e#10356#10470#1" />
-            <element signature="e#11691#11982#0" />
-            <element signature="e#10769#10847#1" />
-            <element signature="e#11988#12520#0" />
-            <element signature="e#10953#11385#1" />
-            <element signature="e#10997#11375#1" />
-            <element signature="e#11208#11281#1" />
-            <element signature="e#11287#11361#1" />
-            <element signature="e#12526#13593#0" />
-            <element signature="e#11550#11710#1" />
-            <element signature="e#11836#11934#0" />
-            <element signature="e#12289#12575#1" />
-            <element signature="e#12307#12481#0" />
-            <element signature="e#12513#12565#0" />
-            <element signature="e#13599#13879#0" />
-            <element signature="e#12671#12804#1" />
-            <element signature="e#13885#14165#0" />
-            <element signature="e#12957#13090#1" />
-            <element signature="e#14171#15848#0" />
-            <element signature="e#15854#15983#0" />
-            <element signature="e#15989#16120#0" />
-            <element signature="e#16126#16558#0" />
-            <element signature="e#15463#15510#0" />
-            <element signature="e#16564#16910#0" />
-            <element signature="e#15816#15863#0" />
-            <element signature="e#15980#16019#1" />
-            <element signature="e#16064#16105#1" />
-            <element signature="e#17099#18445#0" />
-            <element signature="e#16153#16936#1" />
-            <element signature="e#16411#16639#0" />
-            <element signature="e#16857#16924#0" />
-            <element signature="e#16972#17178#1" />
-            <element signature="e#17184#17427#1" />
-            <element signature="e#18451#19338#0" />
-            <element signature="e#19344#19659#0" />
-            <element signature="e#18718#18784#1" />
-            <element signature="e#19778#20081#0" />
-            <element signature="e#18826#18979#0" />
-            <element signature="e#20087#20303#0" />
-            <element signature="e#20309#21245#0" />
-            <element signature="e#19492#19520#1" />
-            <element signature="e#19535#19563#1" />
-            <element signature="e#19535#19699#0" />
-            <element signature="e#19641#19689#0" />
-            <element signature="e#20121#20202#1" />
-            <element signature="e#21252#21966#0" />
-            <element signature="e#21972#22363#0" />
-            <element signature="e#21474#21523#0" />
-            <element signature="e#20760#20761#0" expanded="true" />
-            <element signature="e#20841#20842#0" expanded="true" />
-            <element signature="e#22525#22715#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/battleShip/core/server/Server.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="188">
-          <caret line="172" selection-start-line="172" selection-end-line="172" />
-          <folding>
-            <element signature="e#1477#1478#0" expanded="true" />
-            <element signature="e#1527#1528#0" expanded="true" />
-            <element signature="method#refreshUserStatus#0;class#Server#0" />
-            <element signature="method#requestToPlay#0;class#Server#0" />
-            <element signature="method#createMemberFromMessage#0;class#Server#0" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/battleShip/core/server/PcGamer.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="122" column="21" selection-start-line="122" selection-start-column="21" selection-end-line="122" selection-end-column="21" />
+        <state relative-caret-position="-1872">
+          <caret line="52" column="28" selection-start-line="52" selection-start-column="20" selection-end-line="52" selection-end-column="28" />
           <folding>
             <element signature="method#attack#0;class#PcGamer#0" />
-            <element signature="e#5466#5467#0" expanded="true" />
-            <element signature="e#6346#6347#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/battleShip/core/server/Server.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="199">
+          <caret line="205" column="13" selection-start-line="205" selection-start-column="13" selection-end-line="205" selection-end-column="13" />
+          <folding>
+            <element signature="method#refreshUserStatus#0;class#Server#0" />
+            <element signature="method#requestToPlay#0;class#Server#0" />
+            <element signature="method#ready#0;class#Server#0" />
+            <element signature="method#createMemberFromMessage#0;class#Server#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/battleShip/mainPage/Game.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="494">
+          <caret line="314" column="37" selection-start-line="314" selection-start-column="37" selection-end-line="314" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/battleShip/mainPage/Menu.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="209">
+          <caret line="17" column="11" selection-start-line="17" selection-start-column="11" selection-end-line="17" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/battleShip/mainPage/Controller.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="573">
+          <caret line="300" column="25" selection-start-line="300" selection-start-column="25" selection-end-line="300" selection-end-column="25" />
+          <folding>
+            <element signature="e#4651#4723#1" />
+            <element signature="class#4778:5358" />
+            <element signature="method#run#0;class#4778:5358" />
+            <element signature="e#4906#5076#0" />
+            <element signature="e#5111#5311#1" />
+            <element signature="e#5186#5252#1" />
+            <element signature="e#5455#5456#0" expanded="true" />
+            <element signature="e#5475#5476#0" expanded="true" />
+            <element signature="e#5384#6602#0" />
+            <element signature="e#5532#5664#1" />
+            <element signature="e#5693#5779#0" />
+            <element signature="e#6608#7330#0" />
+            <element signature="e#6851#6979#0" />
+            <element signature="e#7193#7321#0" />
+            <element signature="e#7664#7752#1" />
+            <element signature="e#7758#7846#1" />
+            <element signature="e#8597#8951#0" />
+            <element signature="e#8779#8945#1" />
+            <element signature="e#8957#10672#0" />
+            <element signature="e#9066#9471#1" />
+            <element signature="e#10678#11632#0" />
+            <element signature="e#10736#10917#1" />
+            <element signature="e#10938#11119#1" />
+            <element signature="e#11125#11599#1" />
+            <element signature="e#11156#11357#1" />
+            <element signature="e#11388#11589#1" />
+            <element signature="e#11639#13299#0" />
+            <element signature="e#11906#12589#1" />
+            <element signature="e#11966#12121#1" />
+            <element signature="e#12127#12266#1" />
+            <element signature="e#12307#12558#1" />
+            <element signature="e#12613#12713#1" />
+            <element signature="e#12719#12803#1" />
+            <element signature="e#12860#13292#1" />
+            <element signature="e#12974#13058#1" />
+            <element signature="e#13086#13282#1" />
+            <element signature="e#13305#13596#0" />
+            <element signature="e#13512#13590#1" />
+            <element signature="e#13602#14134#0" />
+            <element signature="e#13697#14128#1" />
+            <element signature="e#13740#14118#1" />
+            <element signature="e#13951#14024#1" />
+            <element signature="e#14030#14104#1" />
+            <element signature="e#14140#15207#0" />
+            <element signature="e#14291#14450#1" />
+            <element signature="e#14575#14673#0" />
+            <element signature="e#14915#15201#1" />
+            <element signature="e#14933#15107#0" />
+            <element signature="e#15139#15191#0" />
+            <element signature="e#15213#15493#0" />
+            <element signature="e#15297#15430#1" />
+            <element signature="e#15753#17449#0" />
+            <element signature="e#17455#17735#0" />
+            <element signature="e#17539#17672#1" />
+            <element signature="e#17741#17870#0" />
+            <element signature="e#17876#18007#0" />
+            <element signature="e#18013#18670#0" />
+            <element signature="e#18587#18634#0" />
+            <element signature="e#18676#19022#0" />
+            <element signature="e#18940#18987#0" />
+            <element signature="e#19211#19288#0" />
+            <element signature="e#19453#20799#0" />
+            <element signature="e#19519#20302#1" />
+            <element signature="e#19777#20005#0" />
+            <element signature="e#20223#20290#0" />
+            <element signature="e#20338#20544#1" />
+            <element signature="e#20550#20793#1" />
+            <element signature="e#20805#21692#0" />
+            <element signature="e#21698#22013#0" />
+            <element signature="e#22132#22435#0" />
+            <element signature="e#22192#22345#0" />
+            <element signature="e#22441#22518#0" />
+            <element signature="e#22901#23837#0" />
+            <element signature="e#23000#23086#1" />
+            <element signature="e#23092#23175#1" />
+            <element signature="e#23396#23641#0" />
+            <element signature="e#23585#23631#0" />
+            <element signature="e#23751#23831#1" />
+            <element signature="e#23843#24550#0" />
+            <element signature="e#25110#25300#0" />
           </folding>
         </state>
       </provider>

@@ -88,18 +88,49 @@
             <VBox fx:id="onlineUsers" alignment="TOP_CENTER" layoutX="256.0" layoutY="333.0" prefHeight="270.0" prefWidth="288.0" spacing="5.0" />
          </children>
       </AnchorPane>
-      <VBox fx:id="notification" layoutX="610.0" layoutY="620.0" prefHeight="20.0" prefWidth="228.0" style="-fx-border-color: #bdc3c7; -fx-background-color: white;">
+      <Pane fx:id="resultPane" layoutY="-607.0" prefHeight="608.0" prefWidth="840.0" style="-fx-background-color: #34495e;">
          <children>
-            <HBox prefHeight="20.0" prefWidth="288.0" style="-fx-background-color: #bdc3c7;">
+            <VBox alignment="TOP_CENTER" layoutX="420.0" prefHeight="563.0" prefWidth="420.0" style="-fx-background-color: #2ecc71;">
                <children>
-                  <Label alignment="CENTER" prefHeight="23.0" prefWidth="198.0" text="Notification" />
-                  <Separator orientation="VERTICAL" prefHeight="200.0" />
-                  <JFXButton onAction="#closeNotification" text="X" textFill="RED" />
+                  <Label alignment="CENTER" prefHeight="66.0" prefWidth="389.0" text="برنده" textFill="WHITE">
+                     <font>
+                        <Font size="25.0" />
+                     </font>
+                  </Label>
+                  <Separator prefWidth="200.0" />
+                  <ImageView fx:id="winnerImage" fitHeight="150.0" fitWidth="218.0" pickOnBounds="true" preserveRatio="true" />
+                  <Label fx:id="winnerName" alignment="CENTER" prefHeight="50.0" prefWidth="383.0" text="Name" textFill="WHITE">
+                     <font>
+                        <Font size="16.0" />
+                     </font>
+                  </Label>
+                  <Separator prefWidth="200.0" />
                </children>
-            </HBox>
-            <Separator prefWidth="200.0" />
+            </VBox>
+            <VBox alignment="TOP_CENTER" prefHeight="563.0" prefWidth="420.0" style="-fx-background-color: #d35400;">
+               <children>
+                  <Label alignment="CENTER" prefHeight="66.0" prefWidth="238.0" text="بازنده" textFill="WHITE">
+                     <font>
+                        <Font size="25.0" />
+                     </font>
+                  </Label>
+                  <Separator prefWidth="200.0" />
+                  <ImageView fx:id="looserImage" fitHeight="150.0" fitWidth="163.0" pickOnBounds="true" preserveRatio="true" />
+                  <Label fx:id="looserName" alignment="CENTER" prefHeight="50.0" prefWidth="383.0" text="Name" textFill="WHITE">
+                     <font>
+                        <Font size="16.0" />
+                     </font>
+                  </Label>
+                  <Separator prefWidth="200.0" />
+               </children>
+            </VBox>
+            <JFXButton fx:id="returnToMenu" layoutX="14.0" layoutY="572.0" ripplerFill="#def89a" style="-fx-background-color: #95a5a6;" text="بازگشت به منو" textFill="WHITE">
+               <font>
+                  <Font size="15.0" />
+               </font>
+            </JFXButton>
          </children>
-      </VBox>
+      </Pane>
       <VBox fx:id="menuPane" alignment="TOP_CENTER" layoutX="-288.0" layoutY="40.0" prefHeight="608.0" prefWidth="288.0" style="-fx-background-color: #bdc3c7; -fx-border-color: white;">
          <children>
             <Label alignment="CENTER" prefHeight="40.0" prefWidth="288.0" text="Battle Ship">
@@ -124,6 +155,18 @@
                </VBox.margin>
             </Label>
             <VBox fx:id="onlineUsers1" minHeight="265.0" prefWidth="288.0" spacing="5.0" style="-fx-background-color: #bdc3c7;" />
+         </children>
+      </VBox>
+      <VBox fx:id="notification" layoutX="610.0" layoutY="620.0" prefHeight="20.0" prefWidth="228.0" style="-fx-border-color: #bdc3c7; -fx-background-color: white;">
+         <children>
+            <HBox prefHeight="20.0" prefWidth="288.0" style="-fx-background-color: #bdc3c7;">
+               <children>
+                  <Label alignment="CENTER" prefHeight="23.0" prefWidth="198.0" text="Notification" />
+                  <Separator orientation="VERTICAL" prefHeight="200.0" />
+                  <JFXButton onAction="#closeNotification" text="X" textFill="RED" />
+               </children>
+            </HBox>
+            <Separator prefWidth="200.0" />
          </children>
       </VBox>
    </children>
