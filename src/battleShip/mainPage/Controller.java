@@ -28,7 +28,11 @@ import javafx.scene.control.Label;
 import javafx.scene.control.Separator;
 import javafx.scene.image.Image;
 import javafx.scene.image.ImageView;
+import javafx.scene.input.MouseEvent;
 import javafx.scene.layout.*;
+import javafx.scene.media.AudioClip;
+import javafx.scene.media.Media;
+import javafx.scene.media.MediaPlayer;
 import javafx.scene.paint.Color;
 import javafx.scene.shape.Ellipse;
 import javafx.scene.shape.Rectangle;
@@ -36,13 +40,15 @@ import javafx.scene.text.Font;
 import javafx.stage.Stage;
 import javafx.stage.WindowEvent;
 import javafx.util.Duration;
+import sun.audio.AudioPlayer;
+import sun.audio.AudioStream;
 
 import javax.imageio.ImageIO;
+import javax.sound.sampled.AudioInputStream;
+import javax.sound.sampled.AudioSystem;
+import javax.sound.sampled.Clip;
 import java.awt.image.BufferedImage;
-import java.io.ByteArrayInputStream;
-import java.io.File;
-import java.io.IOException;
-import java.io.InputStream;
+import java.io.*;
 import java.net.InetAddress;
 import java.net.UnknownHostException;
 import java.sql.Time;
@@ -123,6 +129,21 @@ public class Controller {
     @FXML
     private TilePane shipsContent1, shipsContent2;
 
+    // ----------------- RESULT PAGE ------------------
+    @FXML
+    private ImageView winnerImage;
+    @FXML
+    private Label winnerName;
+    @FXML
+    private ImageView looserImage;
+    @FXML
+    private Label looserName;
+    @FXML
+    Pane resultPane;
+    @FXML
+    JFXButton returnToMenu;
+
+
     boolean isMovedReady1 = false;
     boolean isMovedReady2 = false;
 
@@ -131,9 +152,16 @@ public class Controller {
 
     Game game = new Game();
 
+    Media media;
+    MediaPlayer mediaPlayer;
+
 
     TranslateTransition playWithOnlineUsersTransition;
     TranslateTransition onlineUsersTransition;
+    TranslateTransition resultPaneTransition;
+    TranslateTransition menuPaneTransition;
+
+
 
     Timer timer = new Timer();
     private boolean transitionInit = false;
@@ -148,7 +176,7 @@ public class Controller {
         game.controller = this;
         createContent();
         setUsersDetails();
-        mainPane.getChildren().add(chatBox = new ChatBox(this, 0, 576));
+        mainPane.getChildren().add(chatBox = new ChatBox(this, 0, 580));
         chatBox.toBack();
 
         playWithComputer.setOnMouseClicked(e -> playWithComputerBtn());
@@ -156,34 +184,71 @@ public class Controller {
 
     }
 
-    public void startTimeCheck() {
+    void startTimeCheck() {
         timeLine.setLayoutX(15);
         timeLabel.setText("15");
         if (timer != null) {
             timer.cancel();
             timer = new Timer();
-        }
-        else timer = new Timer();
+        } else timer = new Timer();
 
         timer.schedule(new TimerTask() {
             int sec = 0;
+
             @Override
             public void run() {
-                Platform.runLater(()->{
+                Platform.runLater(() -> {
                     timeLabel.setText(15 - sec + "");
-                    timeLine.setLayoutX(timeLine.getLayoutX() + timeLine.getWidth()/15);
+                    timeLine.setLayoutX(timeLine.getLayoutX() + timeLine.getWidth() / 15);
                 });
 
-                if (sec == 15){
+                if (sec == 15) {
                     timer.cancel();
                     if (game.myTurn) {
                         game.finishTurn();
                     }
                     game.changeTurn(-1);
                 }
-                sec ++;
+                sec++;
             }
         }, 1000, 1000);
+    }
+
+    void finishTimeCheck(){
+        timer.cancel();
+    }
+
+    void playAttackSound() {
+        String soundPath = "src/battleShip/models/sounds/explosion.mp3";
+        if (media == null || mediaPlayer == null) {
+            media = new Media(new File(soundPath).toURI().toString());
+            mediaPlayer = new MediaPlayer(media);
+        }
+        mediaPlayer.play();
+//        AudioClip audioClip = new AudioClip(new File(soundPath).toURI().toString());
+//        audioClip.play();
+//        try {
+//            Clip clip = AudioSystem.getClip();
+//            AudioInputStream inputStream = AudioSystem.getAudioInputStream(new File(soundPath).toURI());
+//            clip.open(inputStream);
+//            clip.start();
+//        } catch (Exception e) {
+//            e.printStackTrace();
+//        }
+
+        // open the sound file as a Java input stream
+//        try {
+//            InputStream in = new FileInputStream(new File(soundPath));
+//
+//            // create an audiostream from the inputstream
+//            AudioStream audioStream = new AudioStream(in);
+//
+//            // play the audio clip with the audioplayer class
+//            AudioPlayer.player.start(audioStream);
+//        }catch (Exception e){
+//            e.printStackTrace();
+//        }
+//
     }
 
     private void setUsersDetails() {
@@ -205,8 +270,49 @@ public class Controller {
 
     }
 
+    public void showFinishWindow(boolean wined) {
+        resultPaneTransition = new TranslateTransition();
+        resultPaneTransition.setNode(resultPane);
+        resultPaneTransition.setToY(607 + 43);
+        resultPaneTransition.setDuration(Duration.seconds(1));
+        Member winner;
+        Member loser;
+        if (wined) {
+            winner = game.app.member1;
+            loser = game.app.member2;
+        } else {
+            winner = game.app.member2;
+            loser = game.app.member1;
+        }
+
+        winnerName.setText(winner.getFullName());
+
+        try {
+            winnerImage.setImage(new Image(new ByteArrayInputStream(winner.getImageData())));
+            looserImage.setImage(new Image(new ByteArrayInputStream(loser.getImageData())));
+        } catch (Exception e) {
+            looserName.setText(loser.getFullName());
+            e.printStackTrace();
+        }
+
+        returnToMenu.setOnMouseClicked(event -> returnToMenu());
+        resultPaneTransition.play();
+
+        chatBox.toBack();
+
+
+    }
+
+    private void returnToMenu() {
+        resultPaneTransition.setToY(0);
+        resultPaneTransition.play();
+
+        showMainMenuPain();
+
+
+    }
+
     public void setOnlineUsers(ArrayList<Member> members) {
-        System.out.println("controller receive" + members.size());
         onlineUsers.getChildren().clear();
         onlineUsers1.getChildren().clear();
 
@@ -286,12 +392,11 @@ public class Controller {
         startTimeCheck();
     }
 
-
-
     public void setShipsContent(boolean opponent, Piece[]... ships) {
         int width = 6;
         int height = 6;
         Map map;
+        ArrayList<Piece[]> aliveShips;
 
         // first init the shapes
         if (shipsShapes == null || shipsShapesOpponent == null) {
@@ -317,12 +422,17 @@ public class Controller {
             return;
         }
 
-        if (opponent)
+        if (opponent) {
             map = shipsShapesOpponent;
-        else map = shipsShapes;
+            aliveShips = game.shipsOpponentAlive;
+        } else {
+            map = shipsShapes;
+            aliveShips = game.shipsAlive;
+        }
 
 
-        for (Piece[] ship : ships) {
+        main:
+        for (Piece[] ship : aliveShips) {
             boolean attacked = true;
 
             for (Piece piece : ship)
@@ -332,8 +442,10 @@ public class Controller {
                 }
 
             if (attacked) {
+                aliveShips.remove(ship);
                 shipAttacked(opponent, ship);
                 ((Rectangle) map.get(ship)).setFill(Color.BLACK);
+                break main;
             }
         }
 
@@ -400,16 +512,10 @@ public class Controller {
         this.playerName1.setText(member.getFullName());
     }
 
-    private void setUserTwo(Member member) {
-        if (member.getImageData() != null) {
-            Image image = new Image(new ByteArrayInputStream(member.getImageData()));
-            image2.setImage(image);
-        }
+    //  -------------------------------------------------------------------------
+    //  ---------------------------------- game request --------------------------------
+    //  -------------------------------------------------------------------------
 
-        this.playerName2.setText(member.getFullName());
-    }
-
-    // game request
     void gameRequest(String fullName, String username) {
         int NOTIFICATION_WIDTH = 288;
 
@@ -453,6 +559,15 @@ public class Controller {
         showNotification(content);
     }
 
+    private void setUserTwo(Member member) {
+        if (member.getImageData() != null) {
+            Image image = new Image(new ByteArrayInputStream(member.getImageData()));
+            image2.setImage(image);
+        }
+
+        this.playerName2.setText(member.getFullName());
+    }
+
     private void acceptGameRequest(String username) {
         game.acceptGameRequest(username);
         closeNotificationBar();
@@ -463,7 +578,9 @@ public class Controller {
         closeNotificationBar();
     }
 
-    // notifiacation
+    //  -------------------------------------------------------------------------
+    // ------------------------------ notifiacation -----------------------------
+    //  -------------------------------------------------------------------------
     private void showNotification(VBox content) {
         notification.getChildren().addAll(content);
 
@@ -499,6 +616,14 @@ public class Controller {
         gameRequest("ali", null);
     }
 
+    //  -------------------------------------------------------------------------
+    // ------------------------------ computer -----------------------------
+    //  -------------------------------------------------------------------------
+
+
+    //  -------------------------------------------------------------------------
+    // ------------------------------ computer -----------------------------
+    //  -------------------------------------------------------------------------
     private void playWithComputerBtn() {
         if (!transitionInit) {
             playWithOnlineUsersTransition = new TranslateTransition();
@@ -588,6 +713,11 @@ public class Controller {
 
     }
 
+    //  -------------------------------------------------------------------------
+    // ------------------------------ game start -----------------------------
+    //  -------------------------------------------------------------------------
+
+
     void startGame(Member one, Member two) {
         setUserOne(one);
         setUserTwo(two);
@@ -596,7 +726,7 @@ public class Controller {
         ready1.setOnAction(e -> ready(false));
 
         closeMainMenuPane();
-
+        chatBox.toFront();
     }
 
     public void ready(boolean opponent) {
@@ -632,7 +762,6 @@ public class Controller {
         }
     }
 
-
     void startPlay() {
         TranslateTransition transition = new TranslateTransition();
         transition.setNode(ready2);
@@ -654,14 +783,26 @@ public class Controller {
     }
 
     private void closeMainMenuPane() {
-        TranslateTransition transition = new TranslateTransition();
-        transition.setNode(mainMenuPane);
-        transition.setDuration(Duration.seconds(1));
-        transition.setToY(-(mainMenuPane.getHeight() + mainMenuPane.getLayoutY()));
-        transition.setOnFinished((e) -> {
-            transition.stop();
+        menuPaneTransition = new TranslateTransition();
+        menuPaneTransition.setNode(mainMenuPane);
+        menuPaneTransition.setDuration(Duration.seconds(1));
+        menuPaneTransition.setToY(-(mainMenuPane.getHeight() + mainMenuPane.getLayoutY()));
+        menuPaneTransition.setOnFinished((e) -> {
+            menuPaneTransition.stop();
         });
-        transition.play();
+        menuPaneTransition.play();
+
+        hambur.toFront();
+    }
+
+    private void showMainMenuPain(){
+        menuPaneTransition.setNode(mainMenuPane);
+        menuPaneTransition.setDuration(Duration.seconds(1));
+        menuPaneTransition.setToY(0);
+        menuPaneTransition.setOnFinished((e) -> {
+            menuPaneTransition.stop();
+        });
+        menuPaneTransition.play();
     }
 
     // messages

@@ -143,5 +143,23 @@ public class DataBaseAPI {
 
     }
 
+    public static boolean refreshUserData(Member member){
+        System.out.println("db : datas refreshed");
+        try {
+            PreparedStatement preparedStatement = connection.prepareStatement("update members set password=?, wins=?, loses=?, fullname=? where username=?");
+            preparedStatement.setString(1, member.getPassword());
+            preparedStatement.setInt(2, member.getWins());
+            preparedStatement.setInt(3, member.getLooses());
+            preparedStatement.setString(4, member.getFullName());
+            preparedStatement.setString(5, member.getUsername());
+
+            return preparedStatement.execute();
+        } catch (SQLException e) {
+            e.printStackTrace();
+            return false;
+        }
+
+    }
+
 
 }

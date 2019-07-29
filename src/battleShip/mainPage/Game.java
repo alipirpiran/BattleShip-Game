@@ -1,29 +1,24 @@
 package battleShip.mainPage;
 
 import battleShip.core.App;
-import battleShip.mainPage.chatBox.ChatBox;
 import battleShip.models.Member;
 import battleShip.models.Message;
 import battleShip.models.Piece;
 import battleShip.models.Tile;
-import com.sun.org.apache.bcel.internal.generic.LineNumberGen;
-import javafx.animation.TranslateTransition;
 import javafx.application.Platform;
 import javafx.event.EventHandler;
 import javafx.fxml.FXMLLoader;
 import javafx.scene.Scene;
 import javafx.stage.Stage;
 import javafx.stage.WindowEvent;
-import javafx.util.Duration;
 
 import java.io.File;
 import java.io.IOException;
-import java.net.InetAddress;
 import java.util.ArrayList;
-import java.util.Collections;
+import java.util.HashMap;
+import java.util.Map;
 
 import static battleShip.mainPage.Controller.TILE_WIDTH;
-import static battleShip.mainPage.Controller.WIDTH;
 
 
 public class Game {
@@ -38,38 +33,53 @@ public class Game {
     private final static int EMPTY = 3;
     private final static int ATTACKED_EMPTY = 4;
 
-    public boolean myTurn = false;
+    boolean myTurn = false;
+    private boolean firtTurn;
 
     public Controller controller;
 
-    public boolean member1Ready = false;
-    public boolean member2Ready = false;
-    public boolean[][] boolBoard1 = null;
-    public boolean[][] boolBoard2 = null;
+    private boolean member1Ready = false;
+    private boolean member2Ready = false;
+    private boolean[][] boolBoard1 = null;
+    private boolean[][] boolBoard2 = null;
 
 
     Tile[][] board1 = new Tile[10][10];
     Tile[][] board2 = new Tile[10][10];
 
-    public Piece[] group4_1 = new Piece[4];
-    public Piece[] group3_1 = new Piece[3];
-    public Piece[] group3_2 = new Piece[3];
-    public Piece[] group2_1 = new Piece[2];
-    public Piece[] group2_2 = new Piece[2];
-    public Piece[] group2_3 = new Piece[2];
-    public Piece[] group1_1 = new Piece[1];
-    public Piece[] group1_2 = new Piece[1];
-    public Piece[] group1_3 = new Piece[1];
-    public Piece[] group1_4 = new Piece[1];
+    Piece[] group4_1 = new Piece[4];
+    Piece[] group3_1 = new Piece[3];
+    Piece[] group3_2 = new Piece[3];
+    Piece[] group2_1 = new Piece[2];
+    Piece[] group2_2 = new Piece[2];
+    Piece[] group2_3 = new Piece[2];
+    Piece[] group1_1 = new Piece[1];
+    Piece[] group1_2 = new Piece[1];
+    Piece[] group1_3 = new Piece[1];
+    Piece[] group1_4 = new Piece[1];
     //    public Piece[][] ships;
-    private ArrayList<Piece[]> ships = new ArrayList<>();
+    ArrayList<Piece[]> ships = new ArrayList<>();
+    public ArrayList<Piece[]> shipsAlive = new ArrayList<>();
     private ArrayList<Piece[]> shipsOpponent = new ArrayList<>();
+    public ArrayList<Piece[]> shipsOpponentAlive = new ArrayList<>();
+
+    Map<ArrayList<Piece[]>, Member> shipMember = new HashMap<>();
+    ArrayList<ArrayList> totalShips = new ArrayList<>();
+
+
+
 
 
     private int[][] board2Status = new int[10][10];
     App app;
+    private boolean playWithPc;
 
-    public void setShipArrayList(){
+    public Game(){
+        totalShips.add(ships);
+        totalShips.add(shipsOpponent);
+    }
+
+    public void setShipArrayList() {
         ships.add(group1_1);
         ships.add(group1_2);
         ships.add(group1_3);
@@ -167,12 +177,12 @@ public class Game {
     }
 
     public void receiveAttack(int attackX, int attackY) {
-        System.out.println("receive attack");
         Platform.runLater(() -> {
             if (!(attackX < 0) || !(attackY < 0)) {
                 if (this.board1[attackX][attackY].hasPiece()) {
                     this.board1[attackX][attackY].getPiece().hide();
                     this.board1[attackX][attackY].attackCell();
+//                    controller.playAttackSound();
                     for (int x = -1; x <= 1; x++)
                         for (int y = -1; y <= 1; y++) {
                             if ((board1[attackX][attackY].x + x) < 0 || (board1[attackX][attackY].x + x) > 9)
@@ -186,20 +196,18 @@ public class Game {
                         }
                     controller.setShipsContent(false, ships.toArray(new Piece[0][0]));
                     controller.startTimeCheck();
+
+                    if (isGameFinished())
+                        finishGameProcess();
                 } else {
                     this.board1[attackX][attackY].disableCell();
                     changeTurn(-1);
                 }
             }
         });
-//        Platform.runLater(() -> );
     }
 
     private void initOpponentBoard(boolean[][] board) {
-
-        int len = 0;
-        int lastI = 0;
-        int lastJ = 0;
         for (int i = 0; i < board.length; i++) {
             for (int j = 0; j < board[i].length; j++) {
                 if (board[i][j])
@@ -218,6 +226,7 @@ public class Game {
             Platform.runLater(() -> changeTurn(-1));
         } else {
             tile.attackCell();
+//            controller.playAttackSound();
             board2Status[tile.x][tile.y] = ATTACKED_SHIP;
             tile.getPiece().hide();
             controller.setShipsContent(true, shipsOpponent.toArray(new Piece[0][0]));
@@ -234,6 +243,8 @@ public class Game {
                     board2[tile.x + x][tile.y + y].disableCell();
                 }
             controller.startTimeCheck();
+            if (isGameFinished())
+                finishGameProcess();
         }
 
         app.attackToCell(tile.x, tile.y);
@@ -251,10 +262,9 @@ public class Game {
 
 
         ArrayList<String> shipsData = new ArrayList<>();
-        for (Piece[] ship : ships){
+        for (Piece[] ship : ships) {
             String temp = ship.length + "#";
-            for (Piece piece:ship){
-                System.out.println(piece);
+            for (Piece piece : ship) {
                 temp += piece.newBoardX;
                 temp += "-";
                 temp += piece.newBoardY;
@@ -269,6 +279,40 @@ public class Game {
         member1Ready = true;
         if (!member2Ready)
             myTurn = true;
+
+        shipsAlive = new ArrayList<>(ships);
+        shipMember.put(ships, app.member1);
+
+    }
+
+    private boolean isGameFinished() {
+
+        if (shipsAlive.size() == 0){
+            app.member2.winGame = true;
+            return true;
+        }
+
+        if (shipsOpponentAlive.size() == 0){
+            app.member1.winGame = true;
+            return true;
+        }
+
+        return false;
+    }
+
+
+    private void finishGameProcess() {
+        if (this.firtTurn || playWithPc)
+            app.sendGameResult(app.member1.winGame);
+
+//        controller.showFinishWindow();
+    }
+
+    public void finishGameFromServer(boolean wined){
+        Platform.runLater(() -> controller.showFinishWindow(wined));
+
+        playWithPc = false;
+        controller.finishTimeCheck();
     }
 
     public void otherPlayerReady(boolean[][] board, String[] shipsData) {
@@ -298,11 +342,12 @@ public class Game {
 
         Platform.runLater(() -> controller.ready(true));
         initOpponentBoard(board);
-
-
+        shipsOpponentAlive = new ArrayList<>(shipsOpponent);
+        shipMember.put(shipsOpponent, app.member2);
     }
 
     public void playWithPc(int level) {
+        playWithPc = true;
         app.playWithPc(level);
     }
 
@@ -382,8 +427,12 @@ public class Game {
     public void changeTurn(int turn) {
         if (turn == 0) {
             Platform.runLater(() -> controller.changeTurn(0));
+            firtTurn = true;
+
         } else if (turn == 1) {
             Platform.runLater(() -> controller.changeTurn(1));
+            firtTurn = false;
+
         } else {
             myTurn = !myTurn;
             Platform.runLater(() -> controller.changeTurn(-1));

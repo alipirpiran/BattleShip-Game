@@ -77,7 +77,7 @@ public class App {
     }
 
     public void receiveMessageFromServer(Message message) {
-        System.out.println("receive from server " + message.getMessageType());
+//        System.out.println("receive from server " + message.getMessageType());
         setResponse(message);
 
         switch (message.messageType) {
@@ -122,6 +122,10 @@ public class App {
 
             case message:
                 game.receiveMessageFromServer(message);
+                break;
+
+            case finishGame:
+                finishGame(message.wined);
         }
     }
 
@@ -207,6 +211,9 @@ public class App {
         game.receiveAttack(message.attackX, message.attackY);
     }
 
+    public void sendGameResult(boolean wined){
+        sendMessageToServer(Message.finishGame(wined));
+    }
 
     // ----------------LOGIN --------------------------
     // ----------------LOGIN --------------------------
@@ -300,6 +307,9 @@ public class App {
             String fullName = info[1];
             String status = info[2];
 
+            if (username.equals("Computer"))
+                continue;
+
             Member member = new Member();
             member.setFullName(fullName);
             member.setUsername(username);
@@ -367,5 +377,7 @@ public class App {
         sendMessageToServer(Message.attack(x, y));
     }
 
-
+    private void finishGame(boolean wined){
+        this.game.finishGameFromServer(wined);
+    }
 }

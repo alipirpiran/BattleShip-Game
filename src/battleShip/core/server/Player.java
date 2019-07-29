@@ -22,6 +22,14 @@ public class Player {
         this.member = member;
     }
 
+    public void setGameResult(boolean wined){
+        if (wined){
+            this.member.setWins(this.member.getWins() + 1);
+        } else {
+            this.member.setLooses(this.member.getLooses() + 1);
+        }
+    }
+
     // game attack
     public void attack(Message message) {}
 
@@ -34,5 +42,7 @@ public class Player {
     public void startPlay(){}
 
     public void startGame() {}
+
+    public void finishGame(){}
 
 }

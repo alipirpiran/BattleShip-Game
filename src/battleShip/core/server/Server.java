@@ -5,6 +5,7 @@ import battleShip.core.server.Database.DataBaseAPI;
 import battleShip.models.Member;
 import battleShip.models.Status;
 
+import javax.xml.crypto.Data;
 import java.io.IOException;
 import java.net.ServerSocket;
 import java.net.Socket;
@@ -38,7 +39,7 @@ public class Server {
                 } catch (IOException e) {
                     e.printStackTrace();
                 }
-                System.out.println("Client Accepted " + socket.getLocalSocketAddress());
+//                System.out.println("Client Accepted " + socket.getLocalSocketAddress());
                 ClientHandler clientHandler = new ClientHandler(socket, server);
                 players.add(clientHandler);
             }
@@ -203,11 +204,30 @@ public class Server {
 
     public void playWithPc(Message message, ClientHandler clientHandler) {
         PcGamer pcGamer = new PcGamer(message.level, clientHandler, this);
+        pcGamer.setMember(getUser(pcGamer.username));
         players.add(pcGamer);
         clientHandler.opponent = pcGamer;
 
         pcGamer.startGame();
         clientHandler.startGame();
+    }
+
+    void finishGame(Message message, ClientHandler clientHandler){
+//        System.out.println("server : game finisehd");
+        clientHandler.setGameResult(message.wined);
+        clientHandler.sendMessageToClient(message);
+
+        message.wined = !message.wined;
+        clientHandler.opponent.setGameResult(message.wined);
+        clientHandler.opponent.sendMessageToClient(message);
+
+        DataBaseAPI.refreshUserData(clientHandler.member);
+        DataBaseAPI.refreshUserData(clientHandler.opponent.member);
+
+        clientHandler.finishGame();
+        clientHandler.opponent.finishGame();
+
+        sendOnlineUsersToClients();
     }
 
 

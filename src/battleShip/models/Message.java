@@ -25,11 +25,15 @@ public class Message implements Serializable {
     int targetWins,targetLooses;
     Status targetStatus;
 
+    // game data
     public boolean[][] board;
     public String [] shipsData;
+    public boolean wined = false;
 
+    // attack data
     public int attackX, attackY;
     public Result attackResult;
+
 
     public String messageContent = "";
 
@@ -95,6 +99,13 @@ public class Message implements Serializable {
         Message message = new Message(MessageType.ready, -1);
         message.board = board;
         message.shipsData= shipsData;
+        return message;
+    }
+
+    public static Message finishGame(boolean wined){
+        Message message = new Message();
+        message.setMessageType(MessageType.finishGame);
+        message.wined = wined;
         return message;
     }
 

@@ -13,10 +13,12 @@ public class Menu {
     private Transition close;
     private TranslateTransition transition = new TranslateTransition();
     private boolean opened, opening, closed, closing;
+    private VBox menuPane;
 
     public Menu(JFXHamburger hambur, VBox menuPane){
         closed = true;
 
+        this.menuPane = menuPane;
         close = new HamburgerSlideCloseTransition(hambur);
         transition.setNode(menuPane);
         transition.setDuration(Duration.millis(500));
@@ -41,6 +43,7 @@ public class Menu {
     }
 
     void show() {
+        menuPane.toFront();
         opening = true;
         transition.setToX(288);
         transition.setOnFinished((event) -> {

@@ -183,7 +183,7 @@ public class PcGamer extends Player {
 
         turn = opponentBoard[attackX][attackY];
 
-        System.out.println("pc attacking to  : " + attackX + " " + attackY);
+//        System.out.println("pc attacking to  : " + attackX + " " + attackY);
 
         opponentBoard[attackX][attackY] = null;
         opponent.receiveAttack(attackX, attackY);

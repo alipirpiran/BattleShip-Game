@@ -8,6 +8,8 @@ public class Member {
     private Status status;
     private byte[] imageData;
 
+    public boolean winGame = false;
+
     public String getFullName() {
         return fullName;
     }

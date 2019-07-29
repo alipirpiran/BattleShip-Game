@@ -98,6 +98,10 @@ public class ClientHandler extends Player implements Runnable {
                 server.playWithPc(message, this);
                 break;
 
+            case finishGame:
+                server.finishGame(message, this);
+                break;
+
         }
     }
 
@@ -146,10 +150,16 @@ public class ClientHandler extends Player implements Runnable {
 
     }
 
-
-
     @Override
     public void otherPlayerReady(boolean[][] board, String[] shipsData) {
         sendMessageToClient(Message.readyMessage(board, shipsData));
+    }
+
+    @Override
+    public void finishGame() {
+        this.ready = false;
+        this.member.setStatus(Status.Online);
+
+
     }
 }
