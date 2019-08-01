@@ -15,6 +15,8 @@ public class Server {
     protected ArrayList<Player> players = new ArrayList<>();
     private ArrayList<Member> members = new ArrayList<>();
 
+    private ArrayList<ClientHandler> randomRequested = new ArrayList<>();
+
 
     private int port;
     private final static int DEFAULT_PORT = 10000;
@@ -155,15 +157,10 @@ public class Server {
 
     }
 
-    public void acceptReuest(Message message, String senderUsername) {
+    public void acceptRequest(Message message, String senderUsername) {
         String targetUsername = message.getTargetUsername();
 
-        // setting opponent for each client handler
-        Player cl1 = getPlayer(targetUsername);
-        Player cl2 = getPlayer(senderUsername);
 
-        cl1.opponent = cl2;
-        cl2.opponent = cl1;
 
         startGame(targetUsername, senderUsername);
     }
@@ -182,8 +179,26 @@ public class Server {
     }
 
     private void startGame(String user1, String user2) {
+        // setting opponent for each client handler
+        Player cl1 = getPlayer(user1);
+        Player cl2 = getPlayer(user2);
+
+        cl1.opponent = cl2;
+        cl2.opponent = cl1;
+
         getPlayer(user1).startGame();
         getPlayer(user2).startGame();
+
+        try {
+            randomRequested.remove(cl1);
+        }catch (Exception e){
+        }
+
+        try {
+            randomRequested.remove(cl2);
+        }catch (Exception e){
+
+        }
 
         sendOnlineUsersToClients();
 
@@ -231,4 +246,15 @@ public class Server {
     }
 
 
+    public void randomPlay(Member member, ClientHandler clientHandler) {
+        randomRequested.add(clientHandler);
+
+        for (ClientHandler e : randomRequested) {
+            if (e == clientHandler)
+                continue;
+
+            startGame(clientHandler.username, e.username);
+            break;
+        }
+    }
 }

@@ -79,7 +79,7 @@ public class ClientHandler extends Player implements Runnable {
                 break;
 
             case acceptRequestPlay:
-                server.acceptReuest(message, username);
+                server.acceptRequest(message, username);
                 break;
 
             case ready:
@@ -102,6 +102,9 @@ public class ClientHandler extends Player implements Runnable {
                 server.finishGame(message, this);
                 break;
 
+            case randomPlay:
+                server.randomPlay(member, this);
+
         }
     }
 
@@ -121,7 +124,6 @@ public class ClientHandler extends Player implements Runnable {
 
     @Override
     public void attack(Message message) {
-//        super.attack(message);
         this.opponent.receiveAttack(message.attackX,message.attackY);
     }
 

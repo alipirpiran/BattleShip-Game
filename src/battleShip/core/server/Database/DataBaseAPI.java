@@ -26,7 +26,7 @@ public class DataBaseAPI {
         connection = ConnectionForDB.getConnection();
     }
 
-    public static Result addUserToDataBase(Member member){
+    public static Result addUserToDataBase(Member member) {
         try {
             String username = member.getUsername();
             String password = member.getPassword();
@@ -53,12 +53,12 @@ public class DataBaseAPI {
         return Result.FAIL;
     }
 
-    public static Member getMember(String findusername){
+    public static Member getMember(String findusername) {
         Member member = new Member();
-        try (Statement statement = connection.createStatement()){
-            ResultSet resultSet = statement.executeQuery("select * from members where username='" + findusername+"'");
+        try (Statement statement = connection.createStatement()) {
+            ResultSet resultSet = statement.executeQuery("select * from members where username='" + findusername + "'");
 
-            while (resultSet.next()){
+            while (resultSet.next()) {
                 String username = resultSet.getString(1);
                 String password = resultSet.getString(2);
                 int wins = resultSet.getInt(3);
@@ -72,19 +72,19 @@ public class DataBaseAPI {
                 member.setFullName(fullname);
                 setImage(member);
             }
-        }catch (Exception e){
+        } catch (Exception e) {
             e.printStackTrace();
         }
 
         return member;
     }
 
-    public static ArrayList<Member> getMembers(){
+    public static ArrayList<Member> getMembers() {
         ArrayList<Member> members = new ArrayList<>();
-        try (Statement statement = connection.createStatement()){
+        try (Statement statement = connection.createStatement()) {
             ResultSet resultSet = statement.executeQuery("select * from members");
 
-            while (resultSet.next()){
+            while (resultSet.next()) {
                 String username = resultSet.getString(1);
                 String password = resultSet.getString(2);
                 int wins = resultSet.getInt(3);
@@ -102,17 +102,17 @@ public class DataBaseAPI {
 
                 members.add(member);
             }
-        }catch (Exception e){
+        } catch (Exception e) {
             e.printStackTrace();
         }
 
         return members;
     }
 
-    private static void setImage(Member member){
+    private static void setImage(Member member) {
         File imageFile = null;
-        for (File file: Paths.get(IMAGE_PATH).toFile().listFiles()){
-            if (file.getName().equals(member.getUsername())){
+        for (File file : Paths.get(IMAGE_PATH).toFile().listFiles()) {
+            if (file.getName().equals(member.getUsername())) {
                 imageFile = file;
                 break;
             }
@@ -129,21 +129,21 @@ public class DataBaseAPI {
 
     }
 
-    private static void saveImage(Member member){
-        for (File file:Paths.get(IMAGE_PATH).toFile().listFiles()){
-           if (file.getName().equals(member.getUsername()))
-               file.delete();
+    private static void saveImage(Member member) {
+        for (File file : Paths.get(IMAGE_PATH).toFile().listFiles()) {
+            if (file.getName().equals(member.getUsername()))
+                file.delete();
         }
 
-        try(FileOutputStream fos = new FileOutputStream(new File(IMAGE_PATH + File.separator + member.getUsername()))){
+        try (FileOutputStream fos = new FileOutputStream(new File(IMAGE_PATH + File.separator + member.getUsername()))) {
             fos.write(member.getImageData());
-        }catch (Exception e){
+        } catch (Exception e) {
             e.printStackTrace();
         }
 
     }
 
-    public static boolean refreshUserData(Member member){
+    public static boolean refreshUserData(Member member) {
         System.out.println("db : datas refreshed");
         try {
             PreparedStatement preparedStatement = connection.prepareStatement("update members set password=?, wins=?, loses=?, fullname=? where username=?");

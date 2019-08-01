@@ -224,6 +224,12 @@ public class Message implements Serializable {
         this.password = password;
     }
 
+    public static Message randomPlay() {
+        Message message = new Message();
+        message.setMessageType(MessageType.randomPlay);
+        return message;
+    }
+
     public MessageType getMessageType() {
         return messageType;
     }

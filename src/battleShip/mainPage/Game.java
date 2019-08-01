@@ -1,16 +1,12 @@
 package battleShip.mainPage;
 
+import battleShip.Error.Error;
 import battleShip.core.App;
-import battleShip.models.Member;
-import battleShip.models.Message;
-import battleShip.models.Piece;
-import battleShip.models.Tile;
+import battleShip.models.*;
 import javafx.application.Platform;
-import javafx.event.EventHandler;
 import javafx.fxml.FXMLLoader;
 import javafx.scene.Scene;
 import javafx.stage.Stage;
-import javafx.stage.WindowEvent;
 
 import java.io.File;
 import java.io.IOException;
@@ -34,7 +30,7 @@ public class Game {
     private final static int ATTACKED_EMPTY = 4;
 
     boolean myTurn = false;
-    private boolean firtTurn;
+    private boolean firstTurn;
 
     public Controller controller;
 
@@ -67,14 +63,11 @@ public class Game {
     ArrayList<ArrayList> totalShips = new ArrayList<>();
 
 
-
-
-
     private int[][] board2Status = new int[10][10];
     App app;
     private boolean playWithPc;
 
-    public Game(){
+    public Game() {
         totalShips.add(ships);
         totalShips.add(shipsOpponent);
     }
@@ -226,7 +219,6 @@ public class Game {
             Platform.runLater(() -> changeTurn(-1));
         } else {
             tile.attackCell();
-//            controller.playAttackSound();
             board2Status[tile.x][tile.y] = ATTACKED_SHIP;
             tile.getPiece().hide();
             controller.setShipsContent(true, shipsOpponent.toArray(new Piece[0][0]));
@@ -287,12 +279,12 @@ public class Game {
 
     private boolean isGameFinished() {
 
-        if (shipsAlive.size() == 0){
+        if (shipsAlive.size() == 0) {
             app.member2.winGame = true;
             return true;
         }
 
-        if (shipsOpponentAlive.size() == 0){
+        if (shipsOpponentAlive.size() == 0) {
             app.member1.winGame = true;
             return true;
         }
@@ -302,14 +294,16 @@ public class Game {
 
 
     private void finishGameProcess() {
-        if (this.firtTurn || playWithPc)
+        if (this.firstTurn || playWithPc)
             app.sendGameResult(app.member1.winGame);
 
 //        controller.showFinishWindow();
     }
 
-    public void finishGameFromServer(boolean wined){
-        Platform.runLater(() -> controller.showFinishWindow(wined));
+    public void finishGameFromServer(boolean wined) {
+        Platform.runLater(() -> {
+            controller.finish(wined);
+        });
 
         playWithPc = false;
         controller.stopTimeCheck();
@@ -365,12 +359,11 @@ public class Game {
         }
         Controller controller = fxmlLoader.getController();
 
-        stage.setOnCloseRequest(new EventHandler<WindowEvent>() {
-            @Override
-            public void handle(WindowEvent event) {
-                if (controller.timer != null)
-                    controller.timer.cancel();
-            }
+        stage.setOnCloseRequest(event -> {
+            if (controller.timer != null)
+                controller.timer.cancel();
+            if (controller.totalTime != null)
+                controller.totalTime.cancel();
         });
 
         app.main = stage;
@@ -428,11 +421,11 @@ public class Game {
     public void changeTurn(int turn) {
         if (turn == 0) {
             Platform.runLater(() -> controller.changeTurn(0));
-            firtTurn = true;
+            firstTurn = true;
 
         } else if (turn == 1) {
             Platform.runLater(() -> controller.changeTurn(1));
-            firtTurn = false;
+            firstTurn = false;
 
         } else {
             myTurn = !myTurn;
@@ -452,5 +445,13 @@ public class Game {
     public void setOnlineUsers(ArrayList<Member> onlineMembers) {
         Platform.runLater(() -> controller.setOnlineUsers(onlineMembers));
 
+    }
+
+    public void randomPlay() {
+        if (app.logedInMember.getStatus() == Status.Playing){
+            Error.showError("شما در حال انجام بازی هستید !");
+            return;
+        }
+        app.randomPlay();
     }
 }

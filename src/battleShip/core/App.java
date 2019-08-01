@@ -14,7 +14,6 @@ import java.util.HashMap;
 import java.util.Map;
 
 public class App {
-    public int port;
     public String ip;
     public ServerSocket serverSocket = null;
     LocalServer localServer = null;
@@ -27,7 +26,6 @@ public class App {
 
     public boolean firstRun = true;
 
-    //    public battleShip.mainPage.Controller mainPage;
     public Game game;
 
     public ArrayList<Member> onlineMembers = new ArrayList<>();
@@ -67,17 +65,7 @@ public class App {
         return false;
     }
 
-    public void startLocalServer() {
-        try {
-            localServer = new LocalServer(this);
-            localServer.start();
-        } catch (Exception e) {
-            e.printStackTrace();
-        }
-    }
-
     public void receiveMessageFromServer(Message message) {
-//        System.out.println("receive from server " + message.getMessageType());
         setResponse(message);
 
         switch (message.messageType) {
@@ -286,7 +274,6 @@ public class App {
     // --------------- GUI ---------------------
     // --------------- GUI ---------------------
     public void showMainWindow() {
-//        battleShip.mainPage.Controller.showWindow(this);
         game.showWindow(this);
     }
 
@@ -363,10 +350,8 @@ public class App {
     }
 
     private void otherUserReady(Message message) {
-        // get other user board data
-//        this.board2 = message.board;
+
         game.otherPlayerReady(message.board, message.shipsData);
-//        Platform.runLater(() -> this.mainPage.otherPlayerReady());
     }
 
     private void recieveAttackResult(Message message) {
@@ -379,5 +364,10 @@ public class App {
 
     private void finishGame(boolean wined){
         this.game.finishGameFromServer(wined);
+    }
+
+    public void randomPlay() {
+        Message message = Message.randomPlay();
+        sendMessageToServer(message);
     }
 }

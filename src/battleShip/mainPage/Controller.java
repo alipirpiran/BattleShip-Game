@@ -154,9 +154,6 @@ public class Controller {
 
     Game game = new Game();
 
-    Media media;
-    MediaPlayer mediaPlayer;
-
 
     TranslateTransition playWithOnlineUsersTransition;
     TranslateTransition onlineUsersTransition;
@@ -221,38 +218,6 @@ public class Controller {
         timer.cancel();
     }
 
-    void playAttackSound() {
-        String soundPath = "src/battleShip/models/sounds/explosion.mp3";
-        if (media == null || mediaPlayer == null) {
-            media = new Media(new File(soundPath).toURI().toString());
-            mediaPlayer = new MediaPlayer(media);
-        }
-        mediaPlayer.play();
-//        AudioClip audioClip = new AudioClip(new File(soundPath).toURI().toString());
-//        audioClip.play();
-//        try {
-//            Clip clip = AudioSystem.getClip();
-//            AudioInputStream inputStream = AudioSystem.getAudioInputStream(new File(soundPath).toURI());
-//            clip.open(inputStream);
-//            clip.start();
-//        } catch (Exception e) {
-//            e.printStackTrace();
-//        }
-
-        // open the sound file as a Java input stream
-//        try {
-//            InputStream in = new FileInputStream(new File(soundPath));
-//
-//            // create an audiostream from the inputstream
-//            AudioStream audioStream = new AudioStream(in);
-//
-//            // play the audio clip with the audioplayer class
-//            AudioPlayer.player.start(audioStream);
-//        }catch (Exception e){
-//            e.printStackTrace();
-//        }
-//
-    }
 
     private void setUsersDetails() {
         player1Hbox.setOnMouseEntered((e) -> player1Hbox.setStyle("-fx-background-color: #bdc3c7"));
@@ -325,7 +290,7 @@ public class Controller {
         }
     }
 
-    private void createContent() {
+    void createContent() {
         for (int i = 0; i < 10; i++)
             for (int j = 0; j < 10; j++) {
                 Tile tile = new Tile(i, j);
@@ -451,6 +416,37 @@ public class Controller {
                 break main;
             }
         }
+
+    }
+
+    @FXML
+    void finish(ActionEvent event) {
+        finish(false);
+    }
+    void finish(boolean wined){
+        showFinishWindow(wined);
+        createContent();
+        shipsShapes = null;
+        shipsShapesOpponent = null;
+        shipsContent1.getChildren().clear();
+        shipsContent2.getChildren().clear();
+
+        TranslateTransition transition = new TranslateTransition();
+        transition.setNode(ready1);
+        transition.setToX(0);
+        transition.setToY(0);
+        transition.setDuration(Duration.millis(10));
+        transition.play();
+
+        transition = new TranslateTransition();
+        transition.setNode(ready2);
+        transition.setToY(0);
+        transition.setToX(0);
+        transition.setDuration(Duration.millis(10));
+        transition.play();
+
+        contentPane1.setDisable(false);
+        contentPane2.setDisable(true);
 
     }
 
@@ -622,11 +618,6 @@ public class Controller {
     //  -------------------------------------------------------------------------
     // ------------------------------ computer -----------------------------
     //  -------------------------------------------------------------------------
-
-
-    //  -------------------------------------------------------------------------
-    // ------------------------------ computer -----------------------------
-    //  -------------------------------------------------------------------------
     private void playWithComputerBtn() {
         if (!transitionInit) {
             playWithOnlineUsersTransition = new TranslateTransition();
@@ -722,6 +713,7 @@ public class Controller {
 
 
     void startGame(Member one, Member two) {
+
         setUserOne(one);
         setUserTwo(two);
 
@@ -735,6 +727,7 @@ public class Controller {
 
     public void ready(boolean opponent) {
         double toX;
+        double fromX = 0;
         Node node;
         if (opponent) {
             node = ready2;
@@ -747,6 +740,7 @@ public class Controller {
         transition.setNode(node);
         transition.setDuration(Duration.seconds(1));
         transition.setToX(toX);
+        transition.setFromX(fromX);
         transition.setOnFinished(e -> {
             transition.stop();
             if (opponent)
@@ -848,6 +842,16 @@ public class Controller {
 
     public void stopTotalTime(){
         totalTime.cancel();
+    }
+
+    @FXML
+    void randomPlay(ActionEvent event){
+        randomPlay();
+    }
+
+    void randomPlay(){
+
+        game.randomPlay();
     }
 
 

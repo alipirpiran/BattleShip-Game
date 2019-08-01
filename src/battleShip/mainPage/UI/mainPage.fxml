@@ -18,6 +18,7 @@
 
 <AnchorPane fx:id="mainPane" maxHeight="659.0" maxWidth="840.0" prefHeight="650.0" prefWidth="840.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="battleShip.mainPage.Controller">
    <children>
+      <Label fx:id="totalTimeLabel" alignment="CENTER" layoutX="324.0" layoutY="612.0" prefHeight="16.0" prefWidth="193.0" text="total time" />
       <JFXHamburger fx:id="hambur" layoutX="13.0" layoutY="11.0" />
       <Separator layoutY="39.0" prefHeight="5.0" prefWidth="839.0" />
       <Label fx:id="serverStatus" layoutX="540.0" layoutY="12.0" prefHeight="16.0" prefWidth="288.0" textFill="#bdc3c7" />
@@ -155,6 +156,7 @@
                </VBox.margin>
             </Label>
             <VBox fx:id="onlineUsers1" minHeight="265.0" prefWidth="288.0" spacing="5.0" style="-fx-background-color: #bdc3c7;" />
+            <JFXButton onAction="#randomPlay" prefHeight="40.0" prefWidth="284.0" style="-fx-background-color: #ecf0f1;" text="تصادفی" />
          </children>
       </VBox>
       <VBox fx:id="notification" layoutX="610.0" layoutY="620.0" prefHeight="20.0" prefWidth="228.0" style="-fx-border-color: #bdc3c7; -fx-background-color: white;">
@@ -169,6 +171,5 @@
             <Separator prefWidth="200.0" />
          </children>
       </VBox>
-      <Label fx:id="totalTimeLabel" alignment="CENTER" layoutX="322.0" layoutY="612.0" prefHeight="16.0" prefWidth="193.0" text="total time" />
    </children>
 </AnchorPane>

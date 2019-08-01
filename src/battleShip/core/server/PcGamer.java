@@ -41,12 +41,7 @@ public class PcGamer extends Player {
     boolean[][] boolBoard = new boolean[10][10];
     Boolean[][] opponentBoard = new Boolean[10][10];
 
-
-//    public Player opponent;
-
-
     public PcGamer(int level, Player opponent, Server server) {
-//        System.out.println("pc created !");
         this.level = level;
         this.opponent = opponent;
         this.server = server;
@@ -66,7 +61,6 @@ public class PcGamer extends Player {
         // put ships in random positions in board
         Random random = new Random();
         for (Ship ship : ships) {
-//            System.out.println(ship.len);
             int x;
             int y;
             do {
@@ -150,7 +144,6 @@ public class PcGamer extends Player {
 
     @Override
     public void receiveAttack(int x, int y) {
-//        System.out.println("attack received on " + x + " " + y);
         if (x < 0 && y < 0)
             turn = !turn;
         else {
@@ -182,8 +175,6 @@ public class PcGamer extends Player {
         } while (!attackPossible(attackX, attackY));
 
         turn = opponentBoard[attackX][attackY];
-
-//        System.out.println("pc attacking to  : " + attackX + " " + attackY);
 
         opponentBoard[attackX][attackY] = null;
         opponent.receiveAttack(attackX, attackY);
@@ -222,8 +213,6 @@ public class PcGamer extends Player {
     public void startGame() {
         createBoard();
         server.ready(username, boolBoard, getShipsData());
-//        this.opponent.sendMessageToClient(Message.readyMessage(boolBoard));
-
     }
 
     @Override

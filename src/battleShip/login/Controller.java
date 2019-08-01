@@ -73,12 +73,7 @@ public class Controller {
     public void initialize() {
         closed = true;
 
-        connectToServerBtn.setOnAction(new EventHandler<ActionEvent>() {
-            @Override
-            public void handle(ActionEvent event) {
-                serverPane();
-            }
-        });
+        connectToServerBtn.setOnAction(event -> serverPane());
 
         transition.setNode(mainPane);
         transition.setDuration(Duration.seconds(1));
@@ -104,15 +99,12 @@ public class Controller {
     private void show() {
         opening = true;
         transition.setToY(-300);
-        transition.setOnFinished(new EventHandler<ActionEvent>() {
-            @Override
-            public void handle(ActionEvent event) {
-                closed = false;
-                closing = false;
-                opened = true;
-                opening = false;
-                transition.stop();
-            }
+        transition.setOnFinished(event -> {
+            closed = false;
+            closing = false;
+            opened = true;
+            opening = false;
+            transition.stop();
         });
         transition.play();
 
@@ -278,7 +270,6 @@ public class Controller {
         app.login = stage;
 
         if (app.isConnectedToServer()) {
-//            controller.serverStarted(app.serverSocket);
             controller.connected();
         }
 

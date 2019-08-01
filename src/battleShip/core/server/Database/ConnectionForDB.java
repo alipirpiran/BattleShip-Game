@@ -6,7 +6,7 @@ import java.sql.DriverManager;
 import java.sql.SQLException;
 
 public class ConnectionForDB {
-    final static String DB_URL = "jdbc:sqlite:" + "src" + File.separator + "battleShip" + File.separator + "core" + File.separator + "server" +File.separator+ "Database" +
+    private final static String DB_URL = "jdbc:sqlite:" + "src" + File.separator + "battleShip" + File.separator + "core" + File.separator + "server" +File.separator+ "Database" +
             File.separator + "database.db";
 
     public static Connection getConnection(){

@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import com.jfoenix.controls.JFXHamburger?>
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.Separator?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.layout.TilePane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.shape.Ellipse?>
+<?import javafx.scene.shape.Rectangle?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane fx:id="mainPane" maxHeight="659.0" maxWidth="840.0" prefHeight="650.0" prefWidth="840.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="battleShip.mainPage.Controller">
+   <children>
+      <JFXHamburger fx:id="hambur" layoutX="13.0" layoutY="11.0" />
+      <Separator layoutY="39.0" prefHeight="5.0" prefWidth="839.0" />
+      <Label fx:id="serverStatus" layoutX="540.0" layoutY="12.0" prefHeight="16.0" prefWidth="288.0" textFill="#bdc3c7" />
+      <ImageView fitHeight="72.0" fitWidth="82.0" layoutX="384.0" layoutY="48.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@images/battleShip.png" />
+         </image>
+      </ImageView>
+      <AnchorPane fx:id="gameContent" layoutX="1.0" layoutY="45.0" prefHeight="540.0" prefWidth="839.0">
+         <children>
+            <JFXButton fx:id="ready1" disable="true" layoutX="14.0" layoutY="504.0" style="-fx-background-color: #e67e22;" text="Ready" />
+            <JFXButton fx:id="ready2" layoutX="766.0" layoutY="504.0" style="-fx-background-color: #e67e22;" text="Ready" />
+            <HBox fx:id="player1Hbox" alignment="CENTER_LEFT" layoutX="6.0" layoutY="-2.0" prefHeight="80.0" prefWidth="354.0">
+               <children>
+                  <ImageView fx:id="image1" fitHeight="80.0" fitWidth="91.0" pickOnBounds="true" preserveRatio="true" />
+                  <Separator orientation="VERTICAL" prefHeight="200.0" />
+                  <Label fx:id="playerName1" prefHeight="80.0" prefWidth="111.0" text="Name">
+                     <padding>
+                        <Insets left="5.0" />
+                     </padding>
+                  </Label>
+                  <TilePane fx:id="shipsContent1" alignment="CENTER" hgap="5.0" prefHeight="103.0" prefWidth="116.0" vgap="10.0" />
+                  <Ellipse fx:id="turnShape1" fill="#19ab02" radiusX="15.0" radiusY="12.0" stroke="WHITE" strokeType="INSIDE" strokeWidth="0.0" visible="false" />
+               </children>
+            </HBox>
+            <HBox fx:id="player2Hbox" alignment="CENTER_RIGHT" layoutX="471.0" layoutY="-2.0" prefHeight="80.0" prefWidth="354.0" style="-fx-border-color: #bd3c7;">
+               <children>
+                  <Ellipse fx:id="turnShape2" fill="#19ab02" radiusX="15.0" radiusY="12.0" stroke="WHITE" strokeType="INSIDE" strokeWidth="0.0" visible="false" />
+                  <TilePane fx:id="shipsContent2" alignment="CENTER" hgap="5.0" prefHeight="80.0" prefWidth="116.0" vgap="10.0" />
+                  <Label fx:id="playerName2" alignment="CENTER_RIGHT" prefHeight="80.0" prefWidth="111.0" text="Name">
+                     <padding>
+                        <Insets right="5.0" />
+                     </padding>
+                  </Label>
+                  <Separator orientation="VERTICAL" prefHeight="200.0" />
+                  <ImageView fx:id="image2" fitHeight="80.0" fitWidth="91.0" pickOnBounds="true" preserveRatio="true" />
+               </children>
+            </HBox>
+            <Separator layoutY="72.0" prefHeight="14.0" prefWidth="839.0" />
+            <AnchorPane fx:id="contentPane1" layoutX="14.0" layoutY="104.0" prefHeight="400.0" prefWidth="400.0" style="-fx-border-color: #bdc3c7;" />
+            <AnchorPane fx:id="contentPane2" disable="true" layoutX="425.0" layoutY="104.0" prefHeight="400.0" prefWidth="400.0" style="-fx-border-color: #bdc3c7;" />
+            <Rectangle fx:id="timeLine" arcHeight="5.0" arcWidth="5.0" fill="#c1ceda" height="14.0" layoutX="15.0" layoutY="85.0" stroke="WHITE" strokeDashOffset="1.0" strokeType="INSIDE" width="720.0" />
+            <Pane layoutX="735.0" layoutY="82.0" prefHeight="20.0" prefWidth="104.0" style="-fx-background-color: #ecf0f1;">
+               <children>
+                  <Label fx:id="turnLabel" alignment="CENTER" layoutX="28.0" layoutY="1.0" prefHeight="16.0" prefWidth="72.0" text="شروع نشده" />
+                  <Label fx:id="timeLabel" alignment="CENTER" layoutY="2.0" prefHeight="16.0" prefWidth="20.0" text="15" />
+               </children>
+            </Pane>
+         </children>
+      </AnchorPane>
+      <AnchorPane fx:id="mainMenuPane" layoutX="-2.0" layoutY="42.0" prefHeight="608.0" prefWidth="840.0" style="-fx-background-color: #d2dae2;" visible="false">
+         <children>
+            <ImageView fitHeight="201.0" fitWidth="513.0" layoutX="164.0" layoutY="31.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@images/battleship_banner.png" />
+               </image>
+            </ImageView>
+            <JFXButton fx:id="playWithComputer" layoutX="258.0" layoutY="231.0" prefHeight="50.0" prefWidth="284.0" style="-fx-background-color: #bdc3c7;" text="بازی با کامپیوتر">
+               <font>
+                  <Font size="19.0" />
+               </font>
+            </JFXButton>
+            <JFXButton fx:id="playWithOnlinePlayers" layoutX="258.0" layoutY="282.0" prefHeight="50.0" prefWidth="284.0" style="-fx-background-color: #bdc3c7;" text="بازی با افراد انلاین">
+               <font>
+                  <Font size="19.0" />
+               </font>
+            </JFXButton>
+            <VBox fx:id="onlineUsers" alignment="TOP_CENTER" layoutX="256.0" layoutY="333.0" prefHeight="270.0" prefWidth="288.0" spacing="5.0" />
+         </children>
+      </AnchorPane>
+      <Pane fx:id="resultPane" layoutY="-607.0" prefHeight="608.0" prefWidth="840.0" style="-fx-background-color: #34495e;">
+         <children>
+            <VBox alignment="TOP_CENTER" layoutX="420.0" prefHeight="563.0" prefWidth="420.0" style="-fx-background-color: #2ecc71;">
+               <children>
+                  <Label alignment="CENTER" prefHeight="66.0" prefWidth="389.0" text="برنده" textFill="WHITE">
+                     <font>
+                        <Font size="25.0" />
+                     </font>
+                  </Label>
+                  <Separator prefWidth="200.0" />
+                  <ImageView fx:id="winnerImage" fitHeight="150.0" fitWidth="218.0" pickOnBounds="true" preserveRatio="true" />
+                  <Label fx:id="winnerName" alignment="CENTER" prefHeight="50.0" prefWidth="383.0" text="Name" textFill="WHITE">
+                     <font>
+                        <Font size="16.0" />
+                     </font>
+                  </Label>
+                  <Separator prefWidth="200.0" />
+               </children>
+            </VBox>
+            <VBox alignment="TOP_CENTER" prefHeight="563.0" prefWidth="420.0" style="-fx-background-color: #d35400;">
+               <children>
+                  <Label alignment="CENTER" prefHeight="66.0" prefWidth="238.0" text="بازنده" textFill="WHITE">
+                     <font>
+                        <Font size="25.0" />
+                     </font>
+                  </Label>
+                  <Separator prefWidth="200.0" />
+                  <ImageView fx:id="looserImage" fitHeight="150.0" fitWidth="163.0" pickOnBounds="true" preserveRatio="true" />
+                  <Label fx:id="looserName" alignment="CENTER" prefHeight="50.0" prefWidth="383.0" text="Name" textFill="WHITE">
+                     <font>
+                        <Font size="16.0" />
+                     </font>
+                  </Label>
+                  <Separator prefWidth="200.0" />
+               </children>
+            </VBox>
+            <JFXButton fx:id="returnToMenu" layoutX="14.0" layoutY="572.0" ripplerFill="#def89a" style="-fx-background-color: #95a5a6;" text="بازگشت به منو" textFill="WHITE">
+               <font>
+                  <Font size="15.0" />
+               </font>
+            </JFXButton>
+         </children>
+      </Pane>
+      <VBox fx:id="menuPane" alignment="TOP_CENTER" layoutX="-288.0" layoutY="40.0" prefHeight="608.0" prefWidth="288.0" style="-fx-background-color: #bdc3c7; -fx-border-color: white;">
+         <children>
+            <Label alignment="CENTER" prefHeight="40.0" prefWidth="288.0" text="Battle Ship">
+               <font>
+                  <Font name="System Bold" size="13.0" />
+               </font>
+            </Label>
+            <Separator prefWidth="200.0" />
+            <VBox fx:id="logedInUserPane" alignment="TOP_CENTER" prefHeight="156.0" prefWidth="288.0">
+               <children>
+                  <ImageView fx:id="logedInUserImage" fitHeight="113.0" fitWidth="143.0" pickOnBounds="true" preserveRatio="true" />
+                  <Label fx:id="logedInUserName" alignment="CENTER" prefHeight="30.0" prefWidth="197.0" text="Name" />
+               </children>
+            </VBox>
+            <Separator prefWidth="200.0" />
+            <Label alignment="CENTER" prefHeight="36.0" prefWidth="205.0" text="افراد آنلاین">
+               <font>
+                  <Font size="22.0" />
+               </font>
+               <VBox.margin>
+                  <Insets top="5.0" />
+               </VBox.margin>
+            </Label>
+            <VBox fx:id="onlineUsers1" minHeight="265.0" prefWidth="288.0" spacing="5.0" style="-fx-background-color: #bdc3c7;" />
+         </children>
+      </VBox>
+      <VBox fx:id="notification" layoutX="610.0" layoutY="620.0" prefHeight="20.0" prefWidth="228.0" style="-fx-border-color: #bdc3c7; -fx-background-color: white;">
+         <children>
+            <HBox prefHeight="20.0" prefWidth="288.0" style="-fx-background-color: #bdc3c7;">
+               <children>
+                  <Label alignment="CENTER" prefHeight="23.0" prefWidth="198.0" text="Notification" />
+                  <Separator orientation="VERTICAL" prefHeight="200.0" />
+                  <JFXButton onAction="#closeNotification" text="X" textFill="RED" />
+               </children>
+            </HBox>
+            <Separator prefWidth="200.0" />
+         </children>
+      </VBox>
+      <Label fx:id="totalTimeLabel" alignment="CENTER" layoutX="322.0" layoutY="612.0" prefHeight="16.0" prefWidth="193.0" text="total time" />
+      <Button layoutX="378.0" layoutY="587.0" mnemonicParsing="false" onAction="#finish" text="Button" />
+   </children>
+</AnchorPane>
