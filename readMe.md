@@ -1,3 +1,13 @@
+<p align="center">
+ <a href="https://github.com/alipirpiran/BattleShip-Game">
+  <img src="https://badges.frapsoft.com/os/v2/open-source.png?v=103">
+ </a>
+ <a href="https://t.me/mralpr">
+  <img src="https://img.shields.io/badge/Chat%20on-telegram-blue" alt="Telegram">
+  </a>
+ </p>
+
+
 <h2>
     Battle Ship Game
 </h2>
